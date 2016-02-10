@@ -4,7 +4,7 @@ using System.Collections;
 
 public class DoodleBroScript : MonoBehaviour {
 
-	public event Action PlayerDeath = delegate{};
+	public event Action CheckPlayerDeath = delegate{};
 
 	public Vector3 Acceleration;
 	public Vector3 JumpVelocity;
@@ -17,11 +17,15 @@ public class DoodleBroScript : MonoBehaviour {
 	void Start () {
 		rigidBody = gameObject.GetComponent<Rigidbody2D>();
 
-		PlayerDeath += DeletePlayer;
+		CheckPlayerDeath += CheckDeletePlayer;
 	}
 
-	private void DeletePlayer(){
-		Destroy (this.gameObject);
+	private void CheckDeletePlayer(){
+		// FOR NOW, DEATH IS FALLING OFF
+		if (this.transform.position.y < -10) {
+			Destroy (this.gameObject);
+		}
+
 	}
 
 	// Update is called once per frame
@@ -38,10 +42,7 @@ public class DoodleBroScript : MonoBehaviour {
 			rigidBody.AddForce (-1 * Acceleration, ForceMode2D.Force);
 		}
 
-		// FOR NOW, DEATH IS FALLING OFF
-		if (this.transform.position.y < -10) {
-			PlayerDeath.Invoke ();
-		}
+		CheckPlayerDeath.Invoke ();
 	}
 
 	void FixedUpdate() {
