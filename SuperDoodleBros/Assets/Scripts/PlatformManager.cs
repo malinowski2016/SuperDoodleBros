@@ -40,7 +40,7 @@ public class PlatformManager : MonoBehaviour {
 		//var offset = new Vector3 (Random.Range (MinX, MaxX), Random.Range (MinDistance, MaxDistance));
 		//_NextSpawn = new Vector3(Random.Range (MinX, MaxX), Random.Range (MinDistance, MaxDistance) + );
 		_NextSpawn.x = (Random.Range(MinX, MaxX));
-		_NextSpawn.y += Random.Range (MinDistance, MaxDistance);
+		_NextSpawn.y += (float) System.Math.Round(Random.Range (MinDistance, MaxDistance));
 	}
 
 	private GameObject MakePlatform(){

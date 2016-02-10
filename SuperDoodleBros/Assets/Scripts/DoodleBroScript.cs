@@ -26,10 +26,11 @@ public class DoodleBroScript : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+
 		if (_OnPlatform && Input.GetButtonDown ("Jump")) {
 			rigidBody.AddForce (JumpVelocity, ForceMode2D.Impulse);
 			_OnPlatform = false;
-		}
+		} 
 
 		if (Input.GetAxis ("Horizontal") == 1) {
 			rigidBody.AddForce (Acceleration, ForceMode2D.Force);
@@ -51,7 +52,6 @@ public class DoodleBroScript : MonoBehaviour {
 
 		if(col.gameObject.tag == "Platform") _OnPlatform = true;
 
-		Debug.Log (string.Format ("Enter collision"));
 //		if (this.gameObject.transform.position.y < col.gameObject.transform.position.y) {
 //			col.gameObject.GetComponent<Collider2D> ().enabled = false;
 //			Debug.Log (string.Format ("SHOULD GO THROUGH"));
@@ -65,7 +65,6 @@ public class DoodleBroScript : MonoBehaviour {
 
 		_OnPlatform = false;
 
-		Debug.Log(string.Format("ON PLATFORM OFF"));
 //		col.gameObject.GetComponent<Collider2D> ().enabled = true;
 	}
 
