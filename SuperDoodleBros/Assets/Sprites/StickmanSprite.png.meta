@@ -1,0 +1,2709 @@
+fileFormatVersion: 2
+guid: 414ccc821ebe7a7489833577f8ba1757
+timeCreated: 1455152281
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: StickmanSprite_0
+    21300002: StickmanSprite_1
+    21300004: StickmanSprite_2
+    21300006: StickmanSprite_3
+    21300008: StickmanSprite_4
+    21300010: StickmanSprite_5
+    21300012: StickmanSprite_6
+    21300014: StickmanSprite_7
+    21300016: StickmanSprite_8
+    21300018: StickmanSprite_9
+    21300020: StickmanSprite_10
+    21300022: StickmanSprite_11
+    21300024: StickmanSprite_12
+    21300026: StickmanSprite_13
+    21300028: StickmanSprite_14
+    21300030: StickmanSprite_15
+    21300032: StickmanSprite_16
+    21300034: StickmanSprite_17
+    21300036: StickmanSprite_18
+    21300038: StickmanSprite_19
+    21300040: StickmanSprite_20
+    21300042: StickmanSprite_21
+    21300044: StickmanSprite_22
+    21300046: StickmanSprite_23
+    21300048: StickmanSprite_24
+    21300050: StickmanSprite_25
+    21300052: StickmanSprite_26
+    21300054: StickmanSprite_27
+    21300056: StickmanSprite_28
+    21300058: StickmanSprite_29
+    21300060: StickmanSprite_30
+    21300062: StickmanSprite_31
+    21300064: StickmanSprite_32
+    21300066: StickmanSprite_33
+    21300068: StickmanSprite_34
+    21300070: StickmanSprite_35
+    21300072: StickmanSprite_36
+    21300074: StickmanSprite_37
+    21300076: StickmanSprite_38
+    21300078: StickmanSprite_39
+    21300080: StickmanSprite_40
+    21300082: StickmanSprite_41
+    21300084: StickmanSprite_42
+    21300086: StickmanSprite_43
+    21300088: StickmanSprite_44
+    21300090: StickmanSprite_45
+    21300092: StickmanSprite_46
+    21300094: StickmanSprite_47
+    21300096: StickmanSprite_48
+    21300098: StickmanSprite_49
+    21300100: StickmanSprite_50
+    21300102: StickmanSprite_51
+    21300104: StickmanSprite_52
+    21300106: StickmanSprite_53
+    21300108: StickmanSprite_54
+    21300110: StickmanSprite_55
+    21300112: StickmanSprite_56
+    21300114: StickmanSprite_57
+    21300116: StickmanSprite_58
+    21300118: StickmanSprite_59
+    21300120: StickmanSprite_60
+    21300122: StickmanSprite_61
+    21300124: StickmanSprite_62
+    21300126: StickmanSprite_63
+    21300128: StickmanSprite_64
+    21300130: StickmanSprite_65
+    21300132: StickmanSprite_66
+    21300134: StickmanSprite_67
+    21300136: StickmanSprite_68
+    21300138: StickmanSprite_69
+    21300140: StickmanSprite_70
+    21300142: StickmanSprite_71
+    21300144: StickmanSprite_72
+    21300146: StickmanSprite_73
+    21300148: StickmanSprite_74
+    21300150: StickmanSprite_75
+    21300152: StickmanSprite_76
+    21300154: StickmanSprite_77
+    21300156: StickmanSprite_78
+    21300158: StickmanSprite_79
+    21300160: StickmanSprite_80
+    21300162: StickmanSprite_81
+    21300164: StickmanSprite_82
+    21300166: StickmanSprite_83
+    21300168: StickmanSprite_84
+    21300170: StickmanSprite_85
+    21300172: StickmanSprite_86
+    21300174: StickmanSprite_87
+    21300176: StickmanSprite_88
+    21300178: StickmanSprite_89
+    21300180: StickmanSprite_90
+    21300182: StickmanSprite_91
+    21300184: StickmanSprite_92
+    21300186: StickmanSprite_93
+    21300188: StickmanSprite_94
+    21300190: StickmanSprite_95
+    21300192: StickmanSprite_96
+    21300194: StickmanSprite_97
+    21300196: StickmanSprite_98
+    21300198: StickmanSprite_99
+    21300200: StickmanSprite_100
+    21300202: StickmanSprite_101
+    21300204: StickmanSprite_102
+    21300206: StickmanSprite_103
+    21300208: StickmanSprite_104
+    21300210: StickmanSprite_105
+    21300212: StickmanSprite_106
+    21300214: StickmanSprite_107
+    21300216: StickmanSprite_108
+    21300218: StickmanSprite_109
+    21300220: StickmanSprite_110
+    21300222: StickmanSprite_111
+    21300224: StickmanSprite_112
+    21300226: StickmanSprite_113
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: StickmanSprite_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1282
+        width: 42
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: -15}
+        - {x: 14, y: -17}
+        - {x: 21, y: -18}
+        - {x: 21, y: 55}
+        - {x: 13, y: 61}
+        - {x: -11, y: 61}
+        - {x: -19, y: 56}
+        - {x: -21, y: 43}
+        - {x: -21, y: -18}
+        - {x: -15, y: -17}
+        - {x: -11, y: -14}
+        - {x: -18, y: -28}
+        - {x: -19, y: -61}
+        - {x: 20, y: -61}
+        - {x: 19, y: -28}
+        - {x: 6, y: -4}
+        - {x: 6, y: 8}
+    - name: StickmanSprite_1
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1282
+        width: 42
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: -15}
+        - {x: 14, y: -17}
+        - {x: 21, y: -18}
+        - {x: 21, y: 55}
+        - {x: 13, y: 61}
+        - {x: -11, y: 61}
+        - {x: -19, y: 56}
+        - {x: -21, y: 43}
+        - {x: -21, y: -18}
+        - {x: -15, y: -17}
+        - {x: -11, y: -14}
+        - {x: -18, y: -28}
+        - {x: -19, y: -61}
+        - {x: 20, y: -61}
+        - {x: 19, y: -28}
+        - {x: 6, y: -4}
+        - {x: 6, y: 8}
+    - name: StickmanSprite_2
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1282
+        width: 42
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 61}
+        - {x: -21, y: 54}
+        - {x: -21, y: -17}
+        - {x: -14, y: -18}
+        - {x: -12, y: -13}
+        - {x: -6, y: -4}
+        - {x: -19, y: -28}
+        - {x: -19, y: -61}
+        - {x: 20, y: -61}
+        - {x: 21, y: -60}
+        - {x: 21, y: 61}
+    - name: StickmanSprite_3
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1281
+        width: 46
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 62}
+        - {x: -23, y: -62}
+        - {x: 23, y: -62}
+        - {x: 23, y: 62}
+    - name: StickmanSprite_4
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 1281
+        width: 46
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: -53.5}
+        - {x: 23, y: 23.5}
+        - {x: 15, y: 56.5}
+        - {x: 10, y: 61.5}
+        - {x: -20, y: 61.5}
+        - {x: -23, y: 60.5}
+        - {x: -23, y: -61.5}
+        - {x: -16, y: -61.5}
+        - {x: -14, y: -57.5}
+        - {x: -5, y: -61.5}
+        - {x: 21, y: -61.5}
+    - name: StickmanSprite_5
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 1281
+        width: 45
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 61.5}
+        - {x: -22.5, y: -61.5}
+        - {x: 22.5, y: -61.5}
+        - {x: 22.5, y: 61.5}
+    - name: StickmanSprite_6
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1281
+        width: 46
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 61.5}
+        - {x: -23, y: 29.5}
+        - {x: -23, y: -61.5}
+        - {x: 16, y: -61.5}
+        - {x: 23, y: -30.5}
+        - {x: 23, y: 61.5}
+    - name: StickmanSprite_7
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 1281
+        width: 48
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 61.5}
+        - {x: -24, y: 51.5}
+        - {x: -24, y: -61.5}
+        - {x: 24, y: -61.5}
+        - {x: 24, y: 61.5}
+    - name: StickmanSprite_8
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 1281
+        width: 41
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 62}
+        - {x: -20.5, y: 50}
+        - {x: -20.5, y: 45}
+        - {x: -15.5, y: 35}
+        - {x: -20.5, y: -17}
+        - {x: -20.5, y: -62}
+        - {x: 14.5, y: -62}
+        - {x: 20.5, y: -36}
+        - {x: 20.5, y: 58}
+        - {x: 18.5, y: 62}
+    - name: StickmanSprite_9
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 1281
+        width: 36
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 62.5}
+        - {x: -18, y: -62.5}
+        - {x: 10, y: -62.5}
+        - {x: 18, y: -27.5}
+        - {x: 18, y: 62.5}
+    - name: StickmanSprite_10
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 1281
+        width: 36
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 62.5}
+        - {x: -12, y: 62.5}
+        - {x: -18, y: 59.5}
+        - {x: -18, y: -44.5}
+        - {x: -14, y: -62.5}
+        - {x: -2, y: -62.5}
+        - {x: 13, y: -13.5}
+        - {x: 18, y: 1.5}
+        - {x: 18, y: 58.5}
+    - name: StickmanSprite_11
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1152
+        width: 35
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 62.5}
+        - {x: -17.5, y: 57.5}
+        - {x: -17.5, y: -29.5}
+        - {x: -12.5, y: -62.5}
+        - {x: 16.5, y: -62.5}
+        - {x: 17.5, y: -59.5}
+        - {x: 17.5, y: 62.5}
+    - name: StickmanSprite_12
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1153
+        width: 43
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.5, y: -4}
+        - {x: 5.5, y: -6}
+        - {x: 14.5, y: -19}
+        - {x: 21.5, y: -16}
+        - {x: 21.5, y: 42}
+        - {x: 20.5, y: 51}
+        - {x: 8.5, y: 62}
+        - {x: -15.5, y: 62}
+        - {x: -21.5, y: 59}
+        - {x: -21.5, y: -62}
+        - {x: 9.5, y: -62}
+        - {x: 15.5, y: -31}
+        - {x: 14.5, y: -22}
+        - {x: 4.5, y: -5}
+    - name: StickmanSprite_13
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1153
+        width: 51
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 61.5}
+        - {x: -25.5, y: -61.5}
+        - {x: 23.5, y: -61.5}
+        - {x: 25.5, y: -56.5}
+        - {x: 25.5, y: 40.5}
+        - {x: 15.5, y: 61.5}
+    - name: StickmanSprite_14
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 1153
+        width: 46
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 61.5}
+        - {x: -21, y: 60.5}
+        - {x: -23, y: 58.5}
+        - {x: -23, y: -61.5}
+        - {x: 23, y: -61.5}
+        - {x: 23, y: 61.5}
+    - name: StickmanSprite_15
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1153
+        width: 46
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: -61.5}
+        - {x: 23, y: 61.5}
+        - {x: -16, y: 61.5}
+        - {x: -23, y: 47.5}
+        - {x: -23, y: -61.5}
+        - {x: -13, y: -61.5}
+        - {x: -2, y: -30.5}
+        - {x: 0, y: -21.5}
+        - {x: 5, y: -61.5}
+    - name: StickmanSprite_16
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1153
+        width: 46
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 61.5}
+        - {x: -23, y: -61.5}
+        - {x: 23, y: -61.5}
+        - {x: 23, y: 61.5}
+    - name: StickmanSprite_17
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 1154
+        width: 48
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 61}
+        - {x: -24, y: 45}
+        - {x: -24, y: -60}
+        - {x: -17, y: -58}
+        - {x: -11, y: -52}
+        - {x: -2, y: -40}
+        - {x: 4, y: -30}
+        - {x: 0, y: -61}
+        - {x: 14, y: -61}
+        - {x: 24, y: -30}
+        - {x: 24, y: 61}
+    - name: StickmanSprite_18
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1153
+        width: 45
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 62}
+        - {x: -22.5, y: 51}
+        - {x: -22.5, y: -62}
+        - {x: 22.5, y: -62}
+        - {x: 22.5, y: 56}
+        - {x: 16.5, y: 62}
+    - name: StickmanSprite_19
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 1153
+        width: 36
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 62}
+        - {x: -18, y: 61}
+        - {x: -18, y: -62}
+        - {x: 11, y: -62}
+        - {x: 18, y: -14}
+        - {x: 18, y: 62}
+    - name: StickmanSprite_20
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 1154
+        width: 36
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 62}
+        - {x: -18, y: 59}
+        - {x: -18, y: -53}
+        - {x: -17, y: -62}
+        - {x: 12, y: -62}
+        - {x: 18, y: -39}
+        - {x: 18, y: 60}
+        - {x: 17, y: 62}
+    - name: StickmanSprite_21
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 1153
+        width: 36
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 62.5}
+        - {x: -18, y: -62.5}
+        - {x: 9, y: -62.5}
+        - {x: 18, y: -23.5}
+        - {x: 18, y: 62.5}
+    - name: StickmanSprite_22
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1025
+        width: 40
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 62.5}
+        - {x: -20, y: 61.5}
+        - {x: -20, y: -47.5}
+        - {x: -19, y: -62.5}
+        - {x: 7, y: -62.5}
+        - {x: 20, y: -44.5}
+        - {x: 20, y: 54.5}
+        - {x: 17, y: 62.5}
+    - name: StickmanSprite_23
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1026
+        width: 47
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.5, y: -2}
+        - {x: 1.5, y: 1}
+        - {x: 1.5, y: -1}
+        - {x: 5.5, y: -4}
+        - {x: 15.5, y: -15}
+        - {x: 21.5, y: -15}
+        - {x: 23.5, y: -13}
+        - {x: 23.5, y: 58}
+        - {x: 21.5, y: 62}
+        - {x: -23.5, y: 62}
+        - {x: -23.5, y: -62}
+        - {x: 10.5, y: -62}
+        - {x: 19.5, y: -60}
+        - {x: 18.5, y: -24}
+        - {x: 9.5, y: -8}
+    - name: StickmanSprite_24
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 1026
+        width: 52
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 54.5}
+        - {x: 10, y: 61.5}
+        - {x: -23, y: 61.5}
+        - {x: -26, y: 60.5}
+        - {x: -26, y: -17.5}
+        - {x: -19, y: -18.5}
+        - {x: -24, y: -53.5}
+        - {x: -26, y: -61.5}
+        - {x: 19, y: -61.5}
+        - {x: 26, y: -38.5}
+        - {x: 26, y: 11.5}
+        - {x: 16, y: 49.5}
+    - name: StickmanSprite_25
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1026
+        width: 45
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 57.5}
+        - {x: 17.5, y: 61.5}
+        - {x: -22.5, y: 61.5}
+        - {x: -22.5, y: -61.5}
+        - {x: -13.5, y: -61.5}
+        - {x: -2.5, y: -30.5}
+        - {x: 7.5, y: -61.5}
+        - {x: 22.5, y: -61.5}
+    - name: StickmanSprite_26
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1026
+        width: 42
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: -15}
+        - {x: 14, y: -17}
+        - {x: 21, y: -18}
+        - {x: 21, y: 55}
+        - {x: 13, y: 61}
+        - {x: -11, y: 61}
+        - {x: -19, y: 56}
+        - {x: -21, y: 43}
+        - {x: -21, y: -18}
+        - {x: -15, y: -17}
+        - {x: -11, y: -14}
+        - {x: -18, y: -28}
+        - {x: -19, y: -61}
+        - {x: 20, y: -61}
+        - {x: 19, y: -28}
+        - {x: 6, y: -4}
+        - {x: 6, y: 8}
+    - name: StickmanSprite_27
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 1026
+        width: 42
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: -15}
+        - {x: 14, y: -17}
+        - {x: 21, y: -18}
+        - {x: 21, y: 55}
+        - {x: 13, y: 61}
+        - {x: -11, y: 61}
+        - {x: -19, y: 56}
+        - {x: -21, y: 43}
+        - {x: -21, y: -18}
+        - {x: -15, y: -17}
+        - {x: -11, y: -14}
+        - {x: -18, y: -28}
+        - {x: -19, y: -61}
+        - {x: 20, y: -61}
+        - {x: 19, y: -28}
+        - {x: 6, y: -4}
+        - {x: 6, y: 8}
+    - name: StickmanSprite_28
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1026
+        width: 42
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: -14}
+        - {x: 14, y: -18}
+        - {x: 21, y: -17}
+        - {x: 21, y: 54}
+        - {x: 20, y: 59}
+        - {x: 15, y: 61}
+        - {x: -18, y: 61}
+        - {x: -21, y: 57}
+        - {x: -21, y: -19}
+        - {x: -14, y: -18}
+        - {x: -12, y: -13}
+        - {x: -10, y: -2}
+        - {x: -6, y: -4}
+        - {x: -19, y: -28}
+        - {x: -19, y: -61}
+        - {x: 20, y: -61}
+        - {x: 19, y: -28}
+        - {x: 6, y: -4}
+        - {x: 6, y: 8}
+    - name: StickmanSprite_29
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1026
+        width: 42
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 2}
+        - {x: 12, y: -12}
+        - {x: 15, y: -16}
+        - {x: 21, y: -16}
+        - {x: 21, y: 48}
+        - {x: 16, y: 61}
+        - {x: -14, y: 61}
+        - {x: -19, y: 55}
+        - {x: -21, y: 45}
+        - {x: -21, y: -16}
+        - {x: -14, y: -17}
+        - {x: -11, y: -12}
+        - {x: -16, y: -19}
+        - {x: -19, y: -26}
+        - {x: -19, y: -61}
+        - {x: 19, y: -61}
+        - {x: 20, y: -26}
+        - {x: 8, y: -6}
+    - name: StickmanSprite_30
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 1026
+        width: 42
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: -26.5}
+        - {x: 19, y: -23.5}
+        - {x: 10, y: -8.5}
+        - {x: 9, y: -6.5}
+        - {x: 10, y: 5.5}
+        - {x: 12, y: -10.5}
+        - {x: 14, y: -15.5}
+        - {x: 21, y: -17.5}
+        - {x: 21, y: 51.5}
+        - {x: 13, y: 60.5}
+        - {x: -19, y: 60.5}
+        - {x: -21, y: 51.5}
+        - {x: -21, y: -15.5}
+        - {x: -15, y: -15.5}
+        - {x: -13, y: -13.5}
+        - {x: -12, y: -8.5}
+        - {x: -12, y: -12.5}
+        - {x: -16, y: -16.5}
+        - {x: -21, y: -25.5}
+        - {x: -21, y: -26.5}
+        - {x: -19, y: -60.5}
+        - {x: 19, y: -60.5}
+    - name: StickmanSprite_31
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 1025
+        width: 42
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: -24.5}
+        - {x: 21, y: -21.5}
+        - {x: 21, y: 61.5}
+        - {x: -21, y: 61.5}
+        - {x: -21, y: -18.5}
+        - {x: -15, y: -16.5}
+        - {x: -12, y: -11.5}
+        - {x: -19, y: -23.5}
+        - {x: -19, y: -61.5}
+        - {x: 18, y: -61.5}
+        - {x: 19, y: -60.5}
+    - name: StickmanSprite_32
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1026
+        width: 42
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: -15}
+        - {x: 14, y: -17}
+        - {x: 21, y: -18}
+        - {x: 21, y: 55}
+        - {x: 13, y: 61}
+        - {x: -11, y: 61}
+        - {x: -19, y: 56}
+        - {x: -21, y: 43}
+        - {x: -21, y: -18}
+        - {x: -15, y: -17}
+        - {x: -11, y: -14}
+        - {x: -18, y: -28}
+        - {x: -19, y: -61}
+        - {x: 20, y: -61}
+        - {x: 19, y: -28}
+        - {x: 6, y: -4}
+        - {x: 6, y: 8}
+    - name: StickmanSprite_33
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 898
+        width: 42
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: -15}
+        - {x: 14, y: -17}
+        - {x: 21, y: -18}
+        - {x: 21, y: 55}
+        - {x: 13, y: 61}
+        - {x: -11, y: 61}
+        - {x: -19, y: 56}
+        - {x: -21, y: 43}
+        - {x: -21, y: -18}
+        - {x: -15, y: -17}
+        - {x: -11, y: -14}
+        - {x: -18, y: -28}
+        - {x: -19, y: -61}
+        - {x: 20, y: -61}
+        - {x: 19, y: -28}
+        - {x: 6, y: -4}
+        - {x: 6, y: 8}
+    - name: StickmanSprite_34
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 897
+        width: 42
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 50.5}
+        - {x: 20, y: 60.5}
+        - {x: 15, y: 61.5}
+        - {x: -14, y: 61.5}
+        - {x: -21, y: 53.5}
+        - {x: -21, y: -17.5}
+        - {x: -14, y: -17.5}
+        - {x: -11, y: -13.5}
+        - {x: -18, y: -27.5}
+        - {x: -19, y: -43.5}
+        - {x: -19, y: -60.5}
+        - {x: -18, y: -61.5}
+        - {x: 21, y: -61.5}
+    - name: StickmanSprite_35
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 897
+        width: 54
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 61}
+        - {x: -27, y: -52}
+        - {x: -25, y: -61}
+        - {x: 27, y: -61}
+        - {x: 27, y: 49}
+        - {x: 12, y: 61}
+    - name: StickmanSprite_36
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 897
+        width: 43
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 61.5}
+        - {x: -21.5, y: 51.5}
+        - {x: -21.5, y: -17.5}
+        - {x: -15.5, y: -16.5}
+        - {x: -13.5, y: -15.5}
+        - {x: -12.5, y: -12.5}
+        - {x: -10.5, y: -1.5}
+        - {x: -10.5, y: -8.5}
+        - {x: -17.5, y: -23.5}
+        - {x: -21.5, y: -24.5}
+        - {x: -21.5, y: -48.5}
+        - {x: -19.5, y: -61.5}
+        - {x: 21.5, y: -61.5}
+        - {x: 21.5, y: 61.5}
+    - name: StickmanSprite_37
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 897
+        width: 65
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: 60.5}
+        - {x: -32.5, y: -11.5}
+        - {x: -25.5, y: -60.5}
+        - {x: 24.5, y: -60.5}
+        - {x: 32.5, y: -52.5}
+        - {x: 32.5, y: 60.5}
+    - name: StickmanSprite_38
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 897
+        width: 42
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 61.5}
+        - {x: -21, y: 58.5}
+        - {x: -21, y: -17.5}
+        - {x: -15, y: -16.5}
+        - {x: -12, y: -11.5}
+        - {x: -19, y: -28.5}
+        - {x: -19, y: -60.5}
+        - {x: -18, y: -61.5}
+        - {x: 21, y: -61.5}
+        - {x: 21, y: 54.5}
+        - {x: 14, y: 61.5}
+    - name: StickmanSprite_39
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 896
+        width: 56
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: -16.5}
+        - {x: 17, y: -18.5}
+        - {x: 21, y: -19.5}
+        - {x: 27, y: -14.5}
+        - {x: 27, y: -10.5}
+        - {x: 28, y: 1.5}
+        - {x: 28, y: 59.5}
+        - {x: 25, y: 60.5}
+        - {x: -7, y: 60.5}
+        - {x: -18, y: 49.5}
+        - {x: -28, y: 12.5}
+        - {x: -28, y: -60.5}
+        - {x: 28, y: -60.5}
+        - {x: 28, y: -57.5}
+        - {x: 19, y: -24.5}
+        - {x: 17, y: -18.5}
+        - {x: 11, y: -9.5}
+    - name: StickmanSprite_40
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 897
+        width: 52
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: -52.5}
+        - {x: 26, y: 52.5}
+        - {x: 21, y: 60.5}
+        - {x: -25, y: 60.5}
+        - {x: -26, y: 57.5}
+        - {x: -26, y: -60.5}
+        - {x: -13, y: -60.5}
+        - {x: -12, y: -56.5}
+        - {x: -6, y: -60.5}
+        - {x: 24, y: -60.5}
+    - name: StickmanSprite_41
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 897
+        width: 49
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 60.5}
+        - {x: -24.5, y: 60.5}
+        - {x: -24.5, y: -60.5}
+        - {x: 24.5, y: -60.5}
+        - {x: 24.5, y: 32.5}
+        - {x: 10.5, y: 59.5}
+    - name: StickmanSprite_42
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 897
+        width: 57
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 59.5}
+        - {x: -28.5, y: -37.5}
+        - {x: -20.5, y: -59.5}
+        - {x: 27.5, y: -59.5}
+        - {x: 28.5, y: -58.5}
+        - {x: 28.5, y: 50.5}
+        - {x: 10.5, y: 59.5}
+    - name: StickmanSprite_43
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 897
+        width: 58
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 59}
+        - {x: -29, y: -18}
+        - {x: -19, y: -59}
+        - {x: 26, y: -59}
+        - {x: 29, y: -54}
+        - {x: 29, y: 46}
+        - {x: 2, y: 59}
+    - name: StickmanSprite_44
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 769
+        width: 62
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: -59}
+        - {x: 13, y: -59}
+        - {x: 31, y: -1}
+        - {x: 31, y: 59}
+        - {x: -9, y: 59}
+        - {x: -14, y: 57}
+        - {x: -31, y: 4}
+        - {x: -31, y: -17}
+        - {x: -28, y: -58}
+        - {x: -25, y: -59}
+        - {x: -16, y: -59}
+        - {x: -11, y: -49}
+        - {x: -2, y: -32}
+        - {x: 2, y: -54}
+    - name: StickmanSprite_45
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 769
+        width: 58
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 59}
+        - {x: -29, y: 20}
+        - {x: -29, y: -12}
+        - {x: -27, y: -14}
+        - {x: -23, y: -11}
+        - {x: -29, y: -42}
+        - {x: -29, y: -59}
+        - {x: 16, y: -59}
+        - {x: 24, y: -55}
+        - {x: 29, y: -13}
+        - {x: 29, y: 59}
+    - name: StickmanSprite_46
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 769
+        width: 55
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: -60.5}
+        - {x: 27.5, y: -39.5}
+        - {x: 27.5, y: 50.5}
+        - {x: 26.5, y: 60.5}
+        - {x: -27.5, y: 60.5}
+        - {x: -27.5, y: -60.5}
+        - {x: -15.5, y: -60.5}
+        - {x: -15.5, y: -41.5}
+        - {x: 4.5, y: -60.5}
+    - name: StickmanSprite_47
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 769
+        width: 72
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 62.5}
+        - {x: -32, y: 62.5}
+        - {x: -36, y: 50.5}
+        - {x: -36, y: -56.5}
+        - {x: -32, y: -62.5}
+        - {x: 13, y: -62.5}
+        - {x: 36, y: 27.5}
+        - {x: 36, y: 43.5}
+        - {x: 31, y: 52.5}
+    - name: StickmanSprite_48
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 769
+        width: 57
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: -60}
+        - {x: 20.5, y: -24}
+        - {x: 16.5, y: -17}
+        - {x: 28.5, y: 20}
+        - {x: 28.5, y: 43}
+        - {x: 21.5, y: 45}
+        - {x: 1.5, y: 60}
+        - {x: -20.5, y: 60}
+        - {x: -28.5, y: 57}
+        - {x: -28.5, y: 16}
+        - {x: -24.5, y: -53}
+        - {x: -17.5, y: -60}
+        - {x: -7.5, y: -60}
+        - {x: -6.5, y: -57}
+        - {x: 7.5, y: -60}
+    - name: StickmanSprite_49
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 769
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 62.5}
+        - {x: -36.5, y: 21.5}
+        - {x: -36.5, y: -62.5}
+        - {x: 15.5, y: -62.5}
+        - {x: 36.5, y: 22.5}
+        - {x: 36.5, y: 39.5}
+        - {x: 9.5, y: 62.5}
+    - name: StickmanSprite_50
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 769
+        width: 64
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: -8}
+        - {x: 6, y: -3}
+        - {x: 16, y: -15}
+        - {x: 21, y: -20}
+        - {x: 32, y: -20}
+        - {x: 32, y: 59}
+        - {x: -2, y: 59}
+        - {x: -17, y: 51}
+        - {x: -32, y: 37}
+        - {x: -32, y: -59}
+        - {x: 16, y: -59}
+        - {x: 20, y: -31}
+        - {x: 19, y: -20}
+    - name: StickmanSprite_51
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 769
+        width: 74
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 62}
+        - {x: -37, y: -62}
+        - {x: 14, y: -62}
+        - {x: 37, y: 2}
+        - {x: 37, y: 49}
+        - {x: 16, y: 62}
+    - name: StickmanSprite_52
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 771
+        width: 71
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 61.5}
+        - {x: -35.5, y: 34.5}
+        - {x: -35.5, y: -61.5}
+        - {x: -0.5, y: -61.5}
+        - {x: 35.5, y: 14.5}
+        - {x: 35.5, y: 49.5}
+        - {x: 17.5, y: 61.5}
+    - name: StickmanSprite_53
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 771
+        width: 62
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 42}
+        - {x: 21, y: 39}
+        - {x: 9, y: 59}
+        - {x: 7, y: 62}
+        - {x: -22, y: 62}
+        - {x: -31, y: 58}
+        - {x: -31, y: -62}
+        - {x: 12, y: -62}
+        - {x: 31, y: 15}
+        - {x: 31, y: 41}
+    - name: StickmanSprite_54
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 770
+        width: 51
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.5, y: 60}
+        - {x: -13.5, y: 60}
+        - {x: -23.5, y: 50}
+        - {x: -25.5, y: 36}
+        - {x: -25.5, y: -20}
+        - {x: -19.5, y: -19}
+        - {x: -16.5, y: -15}
+        - {x: -16.5, y: 5}
+        - {x: -15.5, y: 6}
+        - {x: -16.5, y: 2}
+        - {x: -16.5, y: -7}
+        - {x: -15.5, y: -15}
+        - {x: -25.5, y: -53}
+        - {x: -25.5, y: -60}
+        - {x: 12.5, y: -60}
+        - {x: 25.5, y: 11}
+        - {x: 25.5, y: 39}
+    - name: StickmanSprite_55
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 640
+        width: 60
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 16.5}
+        - {x: 18, y: 53.5}
+        - {x: 9, y: 61.5}
+        - {x: -21, y: 61.5}
+        - {x: -29, y: 60.5}
+        - {x: -30, y: 47.5}
+        - {x: -30, y: -61.5}
+        - {x: 10, y: -61.5}
+        - {x: 12, y: -24.5}
+        - {x: 1, y: -9.5}
+        - {x: 30, y: 3.5}
+    - name: StickmanSprite_56
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 641
+        width: 42
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: -3.5}
+        - {x: 6, y: 1.5}
+        - {x: 14, y: -17.5}
+        - {x: 21, y: -16.5}
+        - {x: 21, y: 61.5}
+        - {x: -17, y: 61.5}
+        - {x: -21, y: 53.5}
+        - {x: -21, y: 44.5}
+        - {x: -19, y: 32.5}
+        - {x: -10, y: 26.5}
+        - {x: -6, y: 24.5}
+        - {x: -6, y: 25.5}
+        - {x: -8, y: 24.5}
+        - {x: -21, y: 23.5}
+        - {x: -21, y: -17.5}
+        - {x: -15, y: -16.5}
+        - {x: -12, y: -12.5}
+        - {x: -10, y: -1.5}
+        - {x: -7, y: -3.5}
+        - {x: -19, y: -28.5}
+        - {x: -20, y: -61.5}
+        - {x: 21, y: -61.5}
+        - {x: 21, y: -53.5}
+        - {x: 19, y: -27.5}
+    - name: StickmanSprite_57
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 642
+        width: 42
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: -44}
+        - {x: 21, y: 56}
+        - {x: 18, y: 61}
+        - {x: -14, y: 61}
+        - {x: -21, y: 52}
+        - {x: -21, y: -17}
+        - {x: -13, y: -18}
+        - {x: -12, y: -15}
+        - {x: -9, y: 2}
+        - {x: -6, y: -4}
+        - {x: -17, y: -25}
+        - {x: -18, y: -29}
+        - {x: -19, y: -49}
+        - {x: -19, y: -61}
+        - {x: -9, y: -61}
+        - {x: -8, y: -42}
+        - {x: 8, y: -61}
+        - {x: 19, y: -61}
+    - name: StickmanSprite_58
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 642
+        width: 42
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: -44}
+        - {x: 21, y: 56}
+        - {x: 18, y: 61}
+        - {x: -14, y: 61}
+        - {x: -21, y: 52}
+        - {x: -21, y: -17}
+        - {x: -13, y: -18}
+        - {x: -12, y: -15}
+        - {x: -9, y: 2}
+        - {x: -6, y: -4}
+        - {x: -17, y: -25}
+        - {x: -18, y: -29}
+        - {x: -19, y: -49}
+        - {x: -19, y: -61}
+        - {x: -9, y: -61}
+        - {x: -8, y: -42}
+        - {x: 8, y: -61}
+        - {x: 19, y: -61}
+    - name: StickmanSprite_59
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 642
+        width: 42
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: -57}
+        - {x: 21, y: 50}
+        - {x: 13, y: 61}
+        - {x: -14, y: 61}
+        - {x: -21, y: 50}
+        - {x: -21, y: -18}
+        - {x: -15, y: -17}
+        - {x: -12, y: -13}
+        - {x: -13, y: -17}
+        - {x: -17, y: -17}
+        - {x: -21, y: -39}
+        - {x: -21, y: -46}
+        - {x: -19, y: -61}
+        - {x: -9, y: -61}
+        - {x: -8, y: -34}
+        - {x: 8, y: -61}
+        - {x: 20, y: -61}
+    - name: StickmanSprite_60
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 641
+        width: 46
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 62}
+        - {x: -23, y: 53}
+        - {x: -23, y: -15}
+        - {x: -17, y: -15}
+        - {x: -22, y: -21}
+        - {x: -16, y: -57}
+        - {x: -15, y: -59}
+        - {x: -7, y: -62}
+        - {x: 23, y: -62}
+        - {x: 23, y: 61}
+        - {x: 22, y: 62}
+    - name: StickmanSprite_61
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 641
+        width: 46
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 61.5}
+        - {x: -16, y: 56.5}
+        - {x: -17, y: 38.5}
+        - {x: -23, y: 11.5}
+        - {x: -23, y: -30.5}
+        - {x: -11, y: -59.5}
+        - {x: -10, y: -61.5}
+        - {x: 23, y: -61.5}
+        - {x: 23, y: 59.5}
+        - {x: 17, y: 61.5}
+    - name: StickmanSprite_62
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 641
+        width: 45
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 61.5}
+        - {x: -14.5, y: 61.5}
+        - {x: -22.5, y: 54.5}
+        - {x: -22.5, y: -34.5}
+        - {x: -15.5, y: -61.5}
+        - {x: 22.5, y: -61.5}
+        - {x: 22.5, y: 58.5}
+    - name: StickmanSprite_63
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 641
+        width: 46
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: -61.5}
+        - {x: 23, y: 61.5}
+        - {x: -23, y: 61.5}
+        - {x: -23, y: -61.5}
+    - name: StickmanSprite_64
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 641
+        width: 48
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: -34.5}
+        - {x: 18, y: 61.5}
+        - {x: -24, y: 61.5}
+        - {x: -24, y: -21.5}
+        - {x: -23, y: -36.5}
+        - {x: -10, y: -61.5}
+        - {x: -1, y: -61.5}
+        - {x: 0, y: -53.5}
+        - {x: 23, y: -60.5}
+        - {x: 24, y: -57.5}
+    - name: StickmanSprite_65
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 641
+        width: 41
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 62}
+        - {x: -20.5, y: 57}
+        - {x: -20.5, y: 34}
+        - {x: -13.5, y: 27}
+        - {x: -17.5, y: -15}
+        - {x: -5.5, y: -62}
+        - {x: 20.5, y: -62}
+        - {x: 20.5, y: 25}
+        - {x: 16.5, y: 62}
+    - name: StickmanSprite_66
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 513
+        width: 36
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 62.5}
+        - {x: -18, y: -42.5}
+        - {x: -2, y: -62.5}
+        - {x: 18, y: -62.5}
+        - {x: 18, y: 62.5}
+    - name: StickmanSprite_67
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 513
+        width: 36
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 60.5}
+        - {x: 16, y: 62.5}
+        - {x: -18, y: 62.5}
+        - {x: -18, y: -28.5}
+        - {x: 2, y: -62.5}
+        - {x: 12, y: -62.5}
+        - {x: 14, y: -60.5}
+        - {x: 11, y: -47.5}
+        - {x: 18, y: 3.5}
+    - name: StickmanSprite_68
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 512
+        width: 35
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: 62.5}
+        - {x: -12.5, y: 62.5}
+        - {x: -17.5, y: 61.5}
+        - {x: -17.5, y: -43.5}
+        - {x: 0.5, y: -62.5}
+        - {x: 11.5, y: -62.5}
+        - {x: 12.5, y: -59.5}
+        - {x: 17.5, y: -4.5}
+        - {x: 17.5, y: 58.5}
+    - name: StickmanSprite_69
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 513
+        width: 43
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 62}
+        - {x: -21.5, y: 56}
+        - {x: -21.5, y: -54}
+        - {x: -15.5, y: -62}
+        - {x: 21.5, y: -62}
+        - {x: 21.5, y: 62}
+    - name: StickmanSprite_70
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 513
+        width: 51
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 61.5}
+        - {x: -25.5, y: 59.5}
+        - {x: -25.5, y: -40.5}
+        - {x: -12.5, y: -59.5}
+        - {x: -6.5, y: -59.5}
+        - {x: -2.5, y: -58.5}
+        - {x: 9.5, y: -61.5}
+        - {x: 24.5, y: -61.5}
+        - {x: 25.5, y: -60.5}
+        - {x: 25.5, y: 57.5}
+        - {x: 23.5, y: 61.5}
+    - name: StickmanSprite_71
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 513
+        width: 46
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 61.5}
+        - {x: -23, y: 51.5}
+        - {x: -23, y: -19.5}
+        - {x: -17, y: -18.5}
+        - {x: -9, y: -9.5}
+        - {x: -6, y: -5.5}
+        - {x: -19, y: -24.5}
+        - {x: -18, y: -39.5}
+        - {x: -13, y: -61.5}
+        - {x: -8, y: -61.5}
+        - {x: -3, y: -59.5}
+        - {x: -6, y: -40.5}
+        - {x: 16, y: -61.5}
+        - {x: 23, y: -61.5}
+        - {x: 23, y: 61.5}
+    - name: StickmanSprite_72
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 513
+        width: 46
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 61.5}
+        - {x: -23, y: 52.5}
+        - {x: -23, y: -31.5}
+        - {x: -19, y: -46.5}
+        - {x: -14, y: -61.5}
+        - {x: 23, y: -61.5}
+        - {x: 23, y: 61.5}
+    - name: StickmanSprite_73
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 513
+        width: 46
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 61.5}
+        - {x: -23, y: 61.5}
+        - {x: -23, y: -50.5}
+        - {x: -14, y: -61.5}
+        - {x: 2, y: -61.5}
+        - {x: 2, y: -59.5}
+        - {x: 7, y: -61.5}
+        - {x: 23, y: -61.5}
+    - name: StickmanSprite_74
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 514
+        width: 48
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 57}
+        - {x: 13, y: 61}
+        - {x: -23, y: 61}
+        - {x: -24, y: 58}
+        - {x: -24, y: -37}
+        - {x: -10, y: -61}
+        - {x: 0, y: -61}
+        - {x: 0, y: -55}
+        - {x: 8, y: -61}
+        - {x: 24, y: -61}
+    - name: StickmanSprite_75
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 513
+        width: 45
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 62}
+        - {x: -22.5, y: 55}
+        - {x: -22.5, y: -62}
+        - {x: 22.5, y: -62}
+        - {x: 22.5, y: 42}
+        - {x: 11.5, y: 62}
+    - name: StickmanSprite_76
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 513
+        width: 36
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 62}
+        - {x: -18, y: -62}
+        - {x: 18, y: -62}
+        - {x: 18, y: 62}
+    - name: StickmanSprite_77
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 386
+        width: 36
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 58}
+        - {x: 14, y: 62}
+        - {x: -13, y: 62}
+        - {x: -18, y: 60}
+        - {x: -18, y: 0}
+        - {x: -7, y: -57}
+        - {x: 0, y: -62}
+        - {x: 14, y: -62}
+        - {x: 18, y: -61}
+        - {x: 11, y: -39}
+        - {x: 18, y: 11}
+    - name: StickmanSprite_78
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 385
+        width: 36
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 62.5}
+        - {x: -18, y: 61.5}
+        - {x: -18, y: -18.5}
+        - {x: -17, y: -21.5}
+        - {x: 1, y: -62.5}
+        - {x: 15, y: -62.5}
+        - {x: 18, y: -60.5}
+        - {x: 18, y: 55.5}
+        - {x: 15, y: 62.5}
+    - name: StickmanSprite_79
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 385
+        width: 40
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 30.5}
+        - {x: 20, y: 56.5}
+        - {x: 11, y: 62.5}
+        - {x: -10, y: 62.5}
+        - {x: -20, y: 52.5}
+        - {x: -20, y: -16.5}
+        - {x: -15, y: -18.5}
+        - {x: -7, y: -10.5}
+        - {x: -7, y: -8.5}
+        - {x: -7, y: -12.5}
+        - {x: -8, y: -12.5}
+        - {x: -15, y: -24.5}
+        - {x: -6, y: -59.5}
+        - {x: -1, y: -62.5}
+        - {x: 15, y: -62.5}
+        - {x: 18, y: -61.5}
+        - {x: 16, y: -49.5}
+        - {x: 17, y: -19.5}
+        - {x: 14, y: 14.5}
+    - name: StickmanSprite_80
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 386
+        width: 47
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: 62}
+        - {x: -23.5, y: 62}
+        - {x: -23.5, y: -15}
+        - {x: -21.5, y: -16}
+        - {x: -16.5, y: -15}
+        - {x: -14.5, y: -13}
+        - {x: -17.5, y: -24}
+        - {x: -17.5, y: -31}
+        - {x: -12.5, y: -56}
+        - {x: -9.5, y: -60}
+        - {x: -3.5, y: -61}
+        - {x: -1.5, y: -58}
+        - {x: 9.5, y: -62}
+        - {x: 23.5, y: -62}
+        - {x: 22.5, y: -49}
+        - {x: 23.5, y: -46}
+    - name: StickmanSprite_81
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 386
+        width: 52
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 61.5}
+        - {x: -26, y: 55.5}
+        - {x: -26, y: -57.5}
+        - {x: -18, y: -61.5}
+        - {x: 26, y: -61.5}
+        - {x: 26, y: 61.5}
+    - name: StickmanSprite_82
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 386
+        width: 45
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: -52.5}
+        - {x: 20.5, y: -44.5}
+        - {x: 22.5, y: -26.5}
+        - {x: 22.5, y: 3.5}
+        - {x: 18.5, y: 14.5}
+        - {x: 22.5, y: 37.5}
+        - {x: 22.5, y: 49.5}
+        - {x: 12.5, y: 61.5}
+        - {x: -18.5, y: 61.5}
+        - {x: -22.5, y: 60.5}
+        - {x: -22.5, y: -19.5}
+        - {x: -16.5, y: -17.5}
+        - {x: -13.5, y: -13.5}
+        - {x: -11.5, y: -7.5}
+        - {x: -7.5, y: -5.5}
+        - {x: -19.5, y: -28.5}
+        - {x: -19.5, y: -61.5}
+        - {x: 22.5, y: -61.5}
+    - name: StickmanSprite_83
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 386
+        width: 42
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: -44}
+        - {x: 21, y: 56}
+        - {x: 18, y: 61}
+        - {x: -14, y: 61}
+        - {x: -21, y: 52}
+        - {x: -21, y: -17}
+        - {x: -13, y: -18}
+        - {x: -12, y: -15}
+        - {x: -9, y: 2}
+        - {x: -6, y: -4}
+        - {x: -17, y: -25}
+        - {x: -18, y: -29}
+        - {x: -19, y: -49}
+        - {x: -19, y: -61}
+        - {x: -9, y: -61}
+        - {x: -8, y: -42}
+        - {x: 8, y: -61}
+        - {x: 19, y: -61}
+    - name: StickmanSprite_84
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 386
+        width: 42
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: -44}
+        - {x: 21, y: 56}
+        - {x: 18, y: 61}
+        - {x: -14, y: 61}
+        - {x: -21, y: 52}
+        - {x: -21, y: -17}
+        - {x: -13, y: -18}
+        - {x: -12, y: -15}
+        - {x: -9, y: 2}
+        - {x: -6, y: -4}
+        - {x: -17, y: -25}
+        - {x: -18, y: -29}
+        - {x: -19, y: -49}
+        - {x: -19, y: -61}
+        - {x: -9, y: -61}
+        - {x: -8, y: -42}
+        - {x: 8, y: -61}
+        - {x: 19, y: -61}
+    - name: StickmanSprite_85
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 386
+        width: 42
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: -48}
+        - {x: 21, y: 51}
+        - {x: 18, y: 61}
+        - {x: -15, y: 61}
+        - {x: -21, y: 50}
+        - {x: -21, y: -16}
+        - {x: -19, y: -17}
+        - {x: -15, y: -17}
+        - {x: -12, y: -14}
+        - {x: -19, y: -28}
+        - {x: -19, y: -61}
+        - {x: -9, y: -61}
+        - {x: -8, y: -41}
+        - {x: 8, y: -61}
+        - {x: 19, y: -61}
+    - name: StickmanSprite_86
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 386
+        width: 42
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: -9}
+        - {x: 14, y: -16}
+        - {x: 21, y: -16}
+        - {x: 21, y: 44}
+        - {x: 20, y: 55}
+        - {x: 14, y: 61}
+        - {x: -14, y: 61}
+        - {x: -21, y: 59}
+        - {x: -21, y: -17}
+        - {x: -15, y: -16}
+        - {x: -13, y: -15}
+        - {x: -12, y: -12}
+        - {x: -11, y: -11}
+        - {x: -17, y: -22}
+        - {x: -19, y: -27}
+        - {x: -19, y: -61}
+        - {x: 19, y: -61}
+        - {x: 19, y: -26}
+        - {x: 16, y: -19}
+    - name: StickmanSprite_87
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 386
+        width: 42
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: -17.5}
+        - {x: 12, y: -13.5}
+        - {x: 12, y: -12.5}
+        - {x: 15, y: -15.5}
+        - {x: 21, y: -16.5}
+        - {x: 21, y: 60.5}
+        - {x: -21, y: 60.5}
+        - {x: -21, y: -17.5}
+        - {x: -15, y: -15.5}
+        - {x: -13, y: -13.5}
+        - {x: -12, y: -10.5}
+        - {x: -13, y: -14.5}
+        - {x: -21, y: -25.5}
+        - {x: -19, y: -60.5}
+        - {x: 19, y: -60.5}
+        - {x: 21, y: -47.5}
+        - {x: 20, y: -22.5}
+    - name: StickmanSprite_88
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 257
+        width: 42
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: -10.5}
+        - {x: 15, y: -16.5}
+        - {x: 21, y: -15.5}
+        - {x: 21, y: 54.5}
+        - {x: 19, y: 60.5}
+        - {x: 14, y: 61.5}
+        - {x: -15, y: 61.5}
+        - {x: -21, y: 58.5}
+        - {x: -21, y: -17.5}
+        - {x: -15, y: -16.5}
+        - {x: -12, y: -12.5}
+        - {x: -11, y: -5.5}
+        - {x: -6, y: -3.5}
+        - {x: -19, y: -25.5}
+        - {x: -20, y: -61.5}
+        - {x: 21, y: -61.5}
+        - {x: 21, y: -39.5}
+        - {x: 19, y: -24.5}
+    - name: StickmanSprite_89
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 258
+        width: 42
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: -44}
+        - {x: 21, y: 56}
+        - {x: 18, y: 61}
+        - {x: -14, y: 61}
+        - {x: -21, y: 52}
+        - {x: -21, y: -17}
+        - {x: -13, y: -18}
+        - {x: -12, y: -15}
+        - {x: -9, y: 2}
+        - {x: -6, y: -4}
+        - {x: -17, y: -25}
+        - {x: -18, y: -29}
+        - {x: -19, y: -49}
+        - {x: -19, y: -61}
+        - {x: -9, y: -61}
+        - {x: -8, y: -42}
+        - {x: 8, y: -61}
+        - {x: 19, y: -61}
+    - name: StickmanSprite_90
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 258
+        width: 42
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: -44}
+        - {x: 21, y: 56}
+        - {x: 18, y: 61}
+        - {x: -14, y: 61}
+        - {x: -21, y: 52}
+        - {x: -21, y: -17}
+        - {x: -13, y: -18}
+        - {x: -12, y: -15}
+        - {x: -9, y: 2}
+        - {x: -6, y: -4}
+        - {x: -17, y: -25}
+        - {x: -18, y: -29}
+        - {x: -19, y: -49}
+        - {x: -19, y: -61}
+        - {x: -9, y: -61}
+        - {x: -8, y: -42}
+        - {x: 8, y: -61}
+        - {x: 19, y: -61}
+    - name: StickmanSprite_91
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 257
+        width: 42
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: -27.5}
+        - {x: 6, y: -3.5}
+        - {x: 6, y: 11.5}
+        - {x: 6, y: 9.5}
+        - {x: 11, y: -13.5}
+        - {x: 14, y: -17.5}
+        - {x: 21, y: -17.5}
+        - {x: 21, y: 40.5}
+        - {x: 19, y: 56.5}
+        - {x: 13, y: 61.5}
+        - {x: -15, y: 61.5}
+        - {x: -20, y: 49.5}
+        - {x: -21, y: 45.5}
+        - {x: -21, y: -17.5}
+        - {x: -14, y: -16.5}
+        - {x: -12, y: -11.5}
+        - {x: -9, y: 2.5}
+        - {x: -7, y: -3.5}
+        - {x: -19, y: -27.5}
+        - {x: -19, y: -60.5}
+        - {x: -18, y: -61.5}
+        - {x: 19, y: -61.5}
+        - {x: 19, y: -43.5}
+    - name: StickmanSprite_92
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 257
+        width: 54
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 61}
+        - {x: -20, y: 51}
+        - {x: -27, y: 26}
+        - {x: -27, y: -6}
+        - {x: -17, y: -4}
+        - {x: -17, y: -27}
+        - {x: -13, y: -61}
+        - {x: 27, y: -61}
+        - {x: 27, y: 61}
+    - name: StickmanSprite_93
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 257
+        width: 43
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.5, y: -61.5}
+        - {x: 19.5, y: -26.5}
+        - {x: 10.5, y: -8.5}
+        - {x: 6.5, y: -3.5}
+        - {x: 9.5, y: -7.5}
+        - {x: 14.5, y: -17.5}
+        - {x: 21.5, y: -17.5}
+        - {x: 21.5, y: 61.5}
+        - {x: -15.5, y: 61.5}
+        - {x: -21.5, y: 49.5}
+        - {x: -21.5, y: -16.5}
+        - {x: -15.5, y: -16.5}
+        - {x: -21.5, y: -27.5}
+        - {x: -21.5, y: -28.5}
+        - {x: -18.5, y: -61.5}
+    - name: StickmanSprite_94
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 257
+        width: 65
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32.5, y: 59.5}
+        - {x: 31.5, y: 60.5}
+        - {x: 2.5, y: 60.5}
+        - {x: -14.5, y: 54.5}
+        - {x: -32.5, y: 27.5}
+        - {x: -32.5, y: 17.5}
+        - {x: -24.5, y: 13.5}
+        - {x: -11.5, y: 10.5}
+        - {x: -14.5, y: -24.5}
+        - {x: -14.5, y: -59.5}
+        - {x: -13.5, y: -60.5}
+        - {x: 23.5, y: -60.5}
+        - {x: 31.5, y: -52.5}
+        - {x: 32.5, y: -44.5}
+    - name: StickmanSprite_95
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 257
+        width: 42
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 53.5}
+        - {x: 20, y: 61.5}
+        - {x: -16, y: 61.5}
+        - {x: -21, y: 56.5}
+        - {x: -21, y: -18.5}
+        - {x: -14, y: -18.5}
+        - {x: -9, y: -8.5}
+        - {x: -6, y: -3.5}
+        - {x: -18, y: -27.5}
+        - {x: -19, y: -46.5}
+        - {x: -19, y: -60.5}
+        - {x: -18, y: -61.5}
+        - {x: 21, y: -61.5}
+    - name: StickmanSprite_96
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 256
+        width: 56
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 60.5}
+        - {x: -28, y: -18.5}
+        - {x: -26, y: -18.5}
+        - {x: -20, y: -19.5}
+        - {x: -16, y: -16.5}
+        - {x: -13, y: -12.5}
+        - {x: -13, y: -13.5}
+        - {x: -17, y: -18.5}
+        - {x: -20, y: -24.5}
+        - {x: -18, y: -59.5}
+        - {x: -15, y: -60.5}
+        - {x: 28, y: -60.5}
+        - {x: 28, y: 41.5}
+        - {x: 13, y: 60.5}
+    - name: StickmanSprite_97
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 257
+        width: 52
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 60.5}
+        - {x: -16, y: 56.5}
+        - {x: -26, y: 19.5}
+        - {x: -26, y: -17.5}
+        - {x: -19, y: -60.5}
+        - {x: 26, y: -60.5}
+        - {x: 26, y: 59.5}
+        - {x: 25, y: 60.5}
+    - name: StickmanSprite_98
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 257
+        width: 49
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 60.5}
+        - {x: -24.5, y: -45.5}
+        - {x: -18.5, y: -60.5}
+        - {x: 24.5, y: -60.5}
+        - {x: 24.5, y: 60.5}
+    - name: StickmanSprite_99
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 129
+        width: 57
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: 59.5}
+        - {x: -7.5, y: 56.5}
+        - {x: -10.5, y: 40.5}
+        - {x: -28.5, y: 43.5}
+        - {x: -28.5, y: -59.5}
+        - {x: 22.5, y: -59.5}
+        - {x: 28.5, y: -6.5}
+        - {x: 28.5, y: 55.5}
+        - {x: 23.5, y: 59.5}
+    - name: StickmanSprite_100
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 129
+        width: 58
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: 59}
+        - {x: -2, y: 59}
+        - {x: -10, y: 57}
+        - {x: -9, y: 41}
+        - {x: -7, y: 34}
+        - {x: -22, y: 41}
+        - {x: -29, y: 42}
+        - {x: -29, y: -59}
+        - {x: 16, y: -59}
+        - {x: 27, y: -30}
+        - {x: 29, y: -1}
+        - {x: 29, y: 53}
+    - name: StickmanSprite_101
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 129
+        width: 62
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: -10}
+        - {x: 31, y: 5}
+        - {x: 4, y: 59}
+        - {x: -30, y: 59}
+        - {x: -31, y: 56}
+        - {x: -31, y: -6}
+        - {x: -15, y: -59}
+        - {x: 24, y: -59}
+        - {x: 26, y: -57}
+        - {x: 24, y: -50}
+    - name: StickmanSprite_102
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 129
+        width: 58
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 59}
+        - {x: -29, y: -33}
+        - {x: -25, y: -59}
+        - {x: 28, y: -59}
+        - {x: 29, y: -51}
+        - {x: 29, y: 20}
+        - {x: 15, y: 59}
+    - name: StickmanSprite_103
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 129
+        width: 55
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: -59.5}
+        - {x: 27.5, y: 50.5}
+        - {x: 20.5, y: 60.5}
+        - {x: -27.5, y: 60.5}
+        - {x: -27.5, y: -43.5}
+        - {x: -25.5, y: -60.5}
+        - {x: -3.5, y: -60.5}
+        - {x: -1.5, y: -37.5}
+        - {x: 14.5, y: -60.5}
+        - {x: 26.5, y: -60.5}
+    - name: StickmanSprite_104
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 129
+        width: 72
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 52.5}
+        - {x: 14, y: 62.5}
+        - {x: -36, y: 62.5}
+        - {x: -36, y: -62.5}
+        - {x: 36, y: -62.5}
+        - {x: 36, y: -0.5}
+        - {x: 31, y: 6.5}
+    - name: StickmanSprite_105
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 129
+        width: 57
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 60}
+        - {x: -15.5, y: 55}
+        - {x: -28.5, y: 44}
+        - {x: -28.5, y: 18}
+        - {x: -23.5, y: -60}
+        - {x: 28.5, y: -60}
+        - {x: 28.5, y: 60}
+    - name: StickmanSprite_106
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 129
+        width: 73
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: 62.5}
+        - {x: -9.5, y: 62.5}
+        - {x: -36.5, y: 45.5}
+        - {x: -36.5, y: 10.5}
+        - {x: -6.5, y: -62.5}
+        - {x: 16.5, y: -62.5}
+        - {x: 33.5, y: -61.5}
+        - {x: 36.5, y: -56.5}
+        - {x: 36.5, y: 26.5}
+    - name: StickmanSprite_107
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 129
+        width: 64
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 59}
+        - {x: -32, y: 59}
+        - {x: -32, y: -23}
+        - {x: -21, y: -20}
+        - {x: -12, y: -12}
+        - {x: -10, y: -8}
+        - {x: -12, y: -12}
+        - {x: -20, y: -23}
+        - {x: -25, y: -39}
+        - {x: -14, y: -59}
+        - {x: 26, y: -59}
+        - {x: 32, y: -44}
+        - {x: 32, y: 29}
+    - name: StickmanSprite_108
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 129
+        width: 74
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 62}
+        - {x: -37, y: 52}
+        - {x: -37, y: -5}
+        - {x: -20, y: -62}
+        - {x: 30, y: -62}
+        - {x: 37, y: -60}
+        - {x: 37, y: 17}
+        - {x: 17, y: 62}
+    - name: StickmanSprite_109
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 131
+        width: 71
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35.5, y: -58.5}
+        - {x: 35.5, y: -43.5}
+        - {x: 32.5, y: -13.5}
+        - {x: 31.5, y: -8.5}
+        - {x: 25.5, y: 52.5}
+        - {x: 15.5, y: 60.5}
+        - {x: 13.5, y: 61.5}
+        - {x: -17.5, y: 61.5}
+        - {x: -35.5, y: 54.5}
+        - {x: -35.5, y: 13.5}
+        - {x: 10.5, y: -61.5}
+        - {x: 34.5, y: -61.5}
+    - name: StickmanSprite_110
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 3
+        width: 62
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 62}
+        - {x: -31, y: 58}
+        - {x: -31, y: -6}
+        - {x: -15, y: -62}
+        - {x: 29, y: -62}
+        - {x: 31, y: -61}
+        - {x: 31, y: 62}
+    - name: StickmanSprite_111
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 2
+        width: 51
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: -7}
+        - {x: 16.5, y: 2}
+        - {x: 16.5, y: -16}
+        - {x: 20.5, y: -18}
+        - {x: 25.5, y: -22}
+        - {x: 25.5, y: 51}
+        - {x: 24.5, y: 59}
+        - {x: 16.5, y: 60}
+        - {x: -10.5, y: 60}
+        - {x: -16.5, y: 51}
+        - {x: -17.5, y: 37}
+        - {x: -12.5, y: 28}
+        - {x: -5.5, y: 24}
+        - {x: -0.5, y: 22}
+        - {x: -5.5, y: 15}
+        - {x: -16.5, y: 31}
+        - {x: -24.5, y: 36}
+        - {x: -25.5, y: 35}
+        - {x: -25.5, y: -16}
+        - {x: -13.5, y: -60}
+        - {x: 25.5, y: -60}
+        - {x: 25.5, y: -51}
+        - {x: 13.5, y: -35}
+    - name: StickmanSprite_112
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 0
+        width: 60
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 61.5}
+        - {x: -30, y: 61.5}
+        - {x: -30, y: -61.5}
+        - {x: -1, y: -61.5}
+        - {x: 1, y: -60.5}
+        - {x: 0, y: -40.5}
+        - {x: 15, y: -61.5}
+        - {x: 30, y: -61.5}
+        - {x: 30, y: 48.5}
+        - {x: 26, y: 58.5}
+    - name: StickmanSprite_113
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1
+        width: 42
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 61.5}
+        - {x: -17, y: 61.5}
+        - {x: -21, y: 49.5}
+        - {x: -21, y: -16.5}
+        - {x: -14, y: -17.5}
+        - {x: -8, y: 2.5}
+        - {x: -6, y: -3.5}
+        - {x: -17, y: -24.5}
+        - {x: -18, y: -28.5}
+        - {x: -19, y: -47.5}
+        - {x: -19, y: -60.5}
+        - {x: -18, y: -61.5}
+        - {x: 21, y: -61.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

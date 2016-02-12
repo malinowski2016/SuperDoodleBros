@@ -1,46 +1,71 @@
 ﻿using UnityEngine;
+using System;
 using System.Collections;
 
 public class PlayerScript : MonoBehaviour {
 
-    public float maxSpeed;
-	public float moveSpeed;
-	public float jumpHeight;
+	public event Action LandedOnPlatform = delegate{};
+	public event Action PlayerDeath = delegate{};
 
-	public bool grounded;
+	public Vector3 Acceleration;
+	public Vector3 JumpVelocity;
 
-	private Rigidbody2D rb2d;
+	private bool _OnPlatform;
+
+	private Rigidbody rigidBody;
 
 	// Use this for initialization
 	void Start () {
-		rb2d = gameObject.GetComponent<Rigidbody2D>();
+		rigidBody = gameObject.GetComponent<Rigidbody>();
+
+		PlayerDeath += DeletePlayer;
+	}
+
+	private void DeletePlayer(){
+		Destroy (this.gameObject);
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetButtonDown("Jump") && grounded == true) {
-            rb2d.AddForce(Vector2.up * jumpHeight);
+		if (_OnPlatform) {
+			if (Input.GetButtonDown ("Jump")) {
+				rigidBody.AddForce (JumpVelocity, ForceMode.VelocityChange);
+			}
+		}
+
+		if (Input.GetAxis ("Horizontal") == 1) {
+			rigidBody.AddForce (Acceleration, ForceMode.Acceleration);
+		} else if (Input.GetAxis ("Horizontal") == -1) {
+			rigidBody.AddForce (-1 * Acceleration, ForceMode.Acceleration);
+		}
+
+		// FOR NOW, DEATH IS FALLING OFF
+		if (this.transform.position.y < -10) {
+			PlayerDeath.Invoke ();
 		}
 	}
 
 	void FixedUpdate() {
-        float h = Input.GetAxis("Horizontal");          //-1 if press left, +1 if press right
-        rb2d.AddForce((Vector2.right * moveSpeed) * h); // Move left/right 
+        // float h = Input.GetAxis("Horizontal");          //-1 if press left, +1 if press right
+        // rb.AddForce((Vector2.right * moveSpeed) * h); // Move left/right 
 
         //Limit speed
-        if (rb2d.velocity.x > maxSpeed)
-            rb2d.velocity = new Vector2(maxSpeed, rb2d.velocity.y);
-        if (rb2d.velocity.x < -maxSpeed)
-            rb2d.velocity = new Vector2(-maxSpeed, rb2d.velocity.y);
+		/*
+        if (rb.velocity.x > maxSpeed)
+            rb.velocity = new Vector2(maxSpeed, rb.velocity.y);
+        if (rb.velocity.x < -maxSpeed)
+            rb.velocity = new Vector2(-maxSpeed, rb.velocity.y);
+        */
     }
 
-    void OnCollisionEnter2D()
-    {
-        grounded = true;
-    }
+	void OnCollisionEnter(){
 
-    void OnCollisionExit2D()
+		_OnPlatform = true;
+
+	}
+
+    void OnCollisionExit()
     {
-        grounded = false;
+		_OnPlatform = false;
     }
 }
