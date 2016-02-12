@@ -15,7 +15,7 @@ public class CameraAutoScroll : MonoBehaviour {
 
 		var maxHeight = 20.0;
 
-		if (cameraPosition.y < maxHeight && GameObject.FindGameObjectWithTag("Player") != null) {
+		if (GameObject.FindGameObjectWithTag("Player") != null) {
 			transform.Translate ((Vector3.up * (float)(Time.deltaTime * 0.5)), Space.World);
 		} else {
 			
