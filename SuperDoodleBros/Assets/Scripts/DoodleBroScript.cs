@@ -22,7 +22,8 @@ public class DoodleBroScript : MonoBehaviour {
 
 	private void CheckDeletePlayer(){
 		// FOR NOW, DEATH IS FALLING OFF
-		if (this.transform.position.y < -10) {
+		if (this.transform.position.y < 
+			(Camera.main.transform.position.y - Camera.main.orthographicSize - 1)) {
 			Destroy (this.gameObject);
 		}
 
