@@ -10,10 +10,16 @@ public class DoodleBroScript : MonoBehaviour {
 	public Vector3 JumpVelocity;
 
 	private bool _OnPlatform;
+	private Animator animator;
 
 	private Rigidbody2D rigidBody;
 
+	void Awake(){
+		animator = GetComponent<Animator> ();
+	}
+
 	// Use this for initialization
+
 	void Start () {
 		rigidBody = gameObject.GetComponent<Rigidbody2D>();
 
@@ -31,16 +37,24 @@ public class DoodleBroScript : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-
+		
 		if (_OnPlatform && Input.GetButtonDown ("Jump")) {
+			animator.SetInteger ("AnimState", 0);
 			rigidBody.AddForce (JumpVelocity, ForceMode2D.Impulse);
+			//Debug.Log (string.Format("JUMP"));
 			_OnPlatform = false;
 		} 
 
 		if (Input.GetAxis ("Horizontal") == 1) {
 			rigidBody.AddForce (Acceleration, ForceMode2D.Force);
+			animator.SetInteger ("AnimState", 1);
+			//Debug.Log(string.Format("Right"));
 		} else if (Input.GetAxis ("Horizontal") == -1) {
 			rigidBody.AddForce (-1 * Acceleration, ForceMode2D.Force);
+			animator.SetInteger ("AnimState", 2);
+			//Debug.Log (string.Format ("LEFT"));
+		} else {
+			animator.SetInteger ("AnimState", 0);
 		}
 
 		CheckPlayerDeath.Invoke ();
