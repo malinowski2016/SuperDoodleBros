@@ -41,18 +41,18 @@ public class DoodleBroScript : MonoBehaviour {
 		if (_OnPlatform && Input.GetButtonDown ("Jump")) {
 			animator.SetInteger ("AnimState", 0);
 			rigidBody.AddForce (JumpVelocity, ForceMode2D.Impulse);
-			Debug.Log (string.Format("JUMP"));
+			//Debug.Log (string.Format("JUMP"));
 			_OnPlatform = false;
 		} 
 
 		if (Input.GetAxis ("Horizontal") == 1) {
 			rigidBody.AddForce (Acceleration, ForceMode2D.Force);
 			animator.SetInteger ("AnimState", 1);
-			Debug.Log(string.Format("Right"));
+			//Debug.Log(string.Format("Right"));
 		} else if (Input.GetAxis ("Horizontal") == -1) {
 			rigidBody.AddForce (-1 * Acceleration, ForceMode2D.Force);
 			animator.SetInteger ("AnimState", 2);
-			Debug.Log (string.Format ("LEFT"));
+			//Debug.Log (string.Format ("LEFT"));
 		} else {
 			animator.SetInteger ("AnimState", 0);
 		}
