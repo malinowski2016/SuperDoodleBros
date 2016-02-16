@@ -30,7 +30,6 @@ public class PlatformManager : MonoBehaviour {
 
 		var maxY = Camera.main.orthographicSize + Camera.main.transform.position.y;
 		var minY = Camera.main.transform.position.y - Camera.main.orthographicSize - 1;
-		Debug.Log (minY);
 
 		if (_InUse.Count > 0) {
 			// if platofrm is below minY, delete it
