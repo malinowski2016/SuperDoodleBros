@@ -88,11 +88,4 @@ public class PlatformManager : MonoBehaviour {
 		_NextSpawn.x = (Random.Range(MinX, MaxX));
 		_NextSpawn.y += (float) System.Math.Round(Random.Range (MinDistance, MaxDistance));
 	}
-
-	private GameObject MakePlatform(){
-		GameObject new_plat = GameObject.Instantiate (platform_prefab);
-		new_plat.transform.localScale = new Vector3 (Random.Range (MinWidth, MaxWidth), 0.1F, 1);
-
-		return new_plat;
-	}
 }
