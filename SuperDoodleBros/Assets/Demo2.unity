@@ -140,6 +140,18 @@ Prefab:
       propertyPath: weapon_prefab
       value: 
       objectReference: {fileID: 127426, guid: aa061abe8b9a40747ba8a82ea04f677d, type: 2}
+    - target: {fileID: 9505668, guid: e4311ef09c2ad624198f1cde85a72f44, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9505668, guid: e4311ef09c2ad624198f1cde85a72f44, type: 2}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11457208, guid: e4311ef09c2ad624198f1cde85a72f44, type: 2}
+      propertyPath: Acceleration.x
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e4311ef09c2ad624198f1cde85a72f44, type: 2}
   m_IsPrefabParent: 0

@@ -50,13 +50,13 @@ public class DoodleBroScript : MonoBehaviour {
 			_OnPlatform = false;
 		} 
 
-		if (Input.GetAxis ("Horizontal") == 1) {
+		if (Input.GetKey(KeyCode.RightArrow)) {
 			rigidBody.AddForce (Acceleration, ForceMode2D.Force);
 			animator.SetInteger ("AnimState", 1);
 
 			dir_facing = 1;
 			//Debug.Log(string.Format("Right"));
-		} else if (Input.GetAxis ("Horizontal") == -1) {
+		} else if (Input.GetKey(KeyCode.LeftArrow)) {
 			rigidBody.AddForce (-1 * Acceleration, ForceMode2D.Force);
 			animator.SetInteger ("AnimState", 2);
 
