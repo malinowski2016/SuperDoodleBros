@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\FireballManager.cs" />
      <Compile Include="Assets\Scripts\BasicEnemyBehavior.cs" />
      <Compile Include="Assets\Scripts\CameraAutoScroll.cs" />
      <Compile Include="Assets\Scripts\DisplayPlayerHealth.cs" />

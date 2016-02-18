@@ -57,10 +57,13 @@ public class TrackerEnemyBehavior : MonoBehaviour {
 		enemy = Instantiate (tracker_enemy_prefab, spawnPos, Quaternion.identity) as GameObject;
 		return enemy;
 	}
-
-/* TURNED OFF COLLIDER TO AVOID COLLISIONS W/ PLATFORMS
+		
     void OnCollisionEnter2D(Collider2D other)
     {
+		if (other.gameObject.tag == "Platform" || other.gameObject.tag == "Enemy") {
+			Physics2D.IgnoreCollision (other, GetComponent<CircleCollider2D> ());
+		}
+		/*
         // If the entering collider is the player...
         if (other.gameObject == target)
         {
@@ -69,6 +72,7 @@ public class TrackerEnemyBehavior : MonoBehaviour {
                 playerHealth.TakeDamage(attackDmg);
             }
         }
+		*/
     }
 
     void OnCollisionExit()
@@ -76,5 +80,4 @@ public class TrackerEnemyBehavior : MonoBehaviour {
         // If the exiting collider is the player...
         //if (other.gameObject == target) { }
     }
-*/
 }

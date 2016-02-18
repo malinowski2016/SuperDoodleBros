@@ -5,7 +5,7 @@
       <FloatingWindow WindowId="1" X="1366" Y="0" Width="624" Height="986">
         <Files>
           <File FileName="Assets\Scripts\PlatformManager.cs" Line="55" Column="3" />
-          <File FileName="Assets\Scripts\DoodleBroScript.cs" Line="49" Column="55" />
+          <File FileName="Assets\Scripts\DoodleBroScript.cs" Line="1" Column="1" />
         </Files>
       </FloatingWindow>
     </FloatingWindows>

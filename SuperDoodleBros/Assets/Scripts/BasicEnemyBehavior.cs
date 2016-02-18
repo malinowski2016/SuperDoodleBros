@@ -32,8 +32,7 @@ public class BasicEnemyBehavior : MonoBehaviour
         transform.position = pos;
 
 		var miny = Camera.main.transform.position.y - Camera.main.orthographicSize - 1;
-		if (transform.position.y < miny) {
-			Debug.Log ("Destroyed Basic Enemy out of view");
+		if (transform.position.y < miny) { //Remove enemies not in view
 			Destroy (gameObject);
 		}
     }
@@ -44,5 +43,17 @@ public class BasicEnemyBehavior : MonoBehaviour
 		enemy = Instantiate (basic_enemy_prefab, spawnPos, Quaternion.identity) as GameObject;
 		range = platWidth;
 		return enemy;
+	}
+
+	void OnCollisionEnter2D(Collider2D other)
+	{
+		if (other.gameObject.tag == "Platform" || other.gameObject.tag == "Enemy") {
+			Physics2D.IgnoreCollision (other, GetComponent<BoxCollider2D> ());
+		}
+
+		//Check if collider belongs to playet. If so, do damage
+	}
+
+	void OnCollisionExit(){
 	}
 }
