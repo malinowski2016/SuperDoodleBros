@@ -226,7 +226,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 780218002}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 440bcece440cfc846a3d083eb2fe52ae, type: 3}
   m_Name: 
@@ -293,7 +293,7 @@ Prefab:
     - target: {fileID: 11486060, guid: a1f8997863c3f94439e43f2e57383f41, type: 2}
       propertyPath: basicEnemy
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 180532, guid: 2d77deeabc605fc4da1369980535b7fc, type: 2}
     - target: {fileID: 11436146, guid: a1f8997863c3f94439e43f2e57383f41, type: 2}
       propertyPath: enemyManager
       value: 

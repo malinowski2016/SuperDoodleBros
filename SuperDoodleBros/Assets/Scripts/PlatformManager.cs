@@ -81,7 +81,11 @@ public class PlatformManager : MonoBehaviour {
 			0.1f,
 			1f);
 
-		enemyManager.SpawnEnemy (_LastSpawn, _LastWidth);
+
+		// shouldn't do this here
+
+		Vector3 enemy_spawn = new Vector3 (_LastSpawn.x, _LastSpawn.y + .2f, _LastSpawn.z);
+		enemyManager.SpawnEnemy (enemy_spawn, _LastWidth);
 
 		//var offset = new Vector3 (Random.Range (MinX, MaxX), Random.Range (MinDistance, MaxDistance));
 		//_NextSpawn = new Vector3(Random.Range (MinX, MaxX), Random.Range (MinDistance, MaxDistance) + );

@@ -28,12 +28,12 @@ public class BasicEnemyBehavior : MonoBehaviour
     void Update()
     {
 		// Moves enemy back and forth
-        Vector3 pos = new Vector3(initialPos.x - range/2 + Mathf.PingPong(speed * Time.time, range), initialPos.y, 0f);
+		Vector3 pos = new Vector3(initialPos.x - range/2 + Mathf.PingPong(speed * Time.time, range), this.gameObject.transform.position.y, 0f);
         transform.position = pos;
 
 		var miny = Camera.main.transform.position.y - Camera.main.orthographicSize - 1;
 		if (transform.position.y < miny) {
-			Debug.Log ("Destroyed Basic Enemy out of view");
+			//Debug.Log ("Destroyed Basic Enemy out of view");
 			Destroy (gameObject);
 		}
     }

@@ -3,7 +3,7 @@ using System.Collections;
 
 public class EnemyManager : MonoBehaviour {
 	public PlatformManager platformManager;
-	public BasicEnemyBehavior basicEnemy;
+	public GameObject basicEnemy;
 	public TrackerEnemyBehavior trackerEnemy;
 
 	// Use this for initialization
@@ -23,7 +23,7 @@ public class EnemyManager : MonoBehaviour {
 		if (enemyType <= 70) {					// No enemy
 			enemy = null;
 		} else if (enemyType <= 90){			// Basic enemy
-			enemy = basicEnemy.SpawnBasicEnemy(spawnPos, platWidth);
+			enemy = basicEnemy.GetComponent<BasicEnemyBehavior>().SpawnBasicEnemy(spawnPos, platWidth);
 		} else {								// Tracker enemy					
 			enemy = trackerEnemy.SpawnTrackerEnemy(spawnPos);
 		}
