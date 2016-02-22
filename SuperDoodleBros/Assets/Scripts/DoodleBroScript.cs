@@ -50,13 +50,13 @@ public class DoodleBroScript : MonoBehaviour {
 			_OnPlatform = false;
 		} 
 
-		if (Input.GetAxis ("Horizontal") == 1) {
+		if (Input.GetKey(KeyCode.RightArrow)) {
 			rigidBody.AddForce (Acceleration, ForceMode2D.Force);
 			animator.SetInteger ("AnimState", 1);
 
 			dir_facing = 1;
 			//Debug.Log(string.Format("Right"));
-		} else if (Input.GetAxis ("Horizontal") == -1) {
+		} else if (Input.GetKey(KeyCode.LeftArrow)) {
 			rigidBody.AddForce (-1 * Acceleration, ForceMode2D.Force);
 			animator.SetInteger ("AnimState", 2);
 
@@ -91,7 +91,7 @@ public class DoodleBroScript : MonoBehaviour {
 	}
 
 	void OnCollisionExit(){
-
+		Debug.Log (string.Format ("Exit collision"));
 		_OnPlatform = false;
 
 //		col.gameObject.GetComponent<Collider2D> ().enabled = true;

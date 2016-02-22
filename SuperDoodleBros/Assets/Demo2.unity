@@ -140,6 +140,18 @@ Prefab:
       propertyPath: weapon_prefab
       value: 
       objectReference: {fileID: 127426, guid: aa061abe8b9a40747ba8a82ea04f677d, type: 2}
+    - target: {fileID: 9505668, guid: e4311ef09c2ad624198f1cde85a72f44, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9505668, guid: e4311ef09c2ad624198f1cde85a72f44, type: 2}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11457208, guid: e4311ef09c2ad624198f1cde85a72f44, type: 2}
+      propertyPath: Acceleration.x
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e4311ef09c2ad624198f1cde85a72f44, type: 2}
   m_IsPrefabParent: 0
@@ -208,17 +220,33 @@ Transform:
 GameObject:
   m_PrefabParentObject: {fileID: 145568, guid: a1f8997863c3f94439e43f2e57383f41, type: 2}
   m_PrefabInternal: {fileID: 1594617369}
+--- !u!114 &780218003 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11486060, guid: a1f8997863c3f94439e43f2e57383f41,
+    type: 2}
+  m_PrefabInternal: {fileID: 1594617369}
+  m_Script: {fileID: 11500000, guid: 5e3b863f8138d3b4b87dd6a57645208c, type: 3}
+--- !u!114 &780218004 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11436146, guid: a1f8997863c3f94439e43f2e57383f41,
+    type: 2}
+  m_PrefabInternal: {fileID: 1594617369}
+  m_Script: {fileID: 11500000, guid: 440bcece440cfc846a3d083eb2fe52ae, type: 3}
 --- !u!114 &780218009
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 780218002}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 440bcece440cfc846a3d083eb2fe52ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _NextSpawn: {x: 0, y: -1, z: 0}
+  _LastSpawn: {x: 0, y: 0, z: 0}
+  _LastWidth: 0
+  enemyManager: {fileID: 780218003}
   platform_prefab: {fileID: 162864, guid: 0086af4bb8cf6a24494236cf92cb454f, type: 2}
   SpawnDistance: 10
   MinWidth: 2
@@ -274,6 +302,18 @@ Prefab:
       propertyPath: orthographic
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11486060, guid: a1f8997863c3f94439e43f2e57383f41, type: 2}
+      propertyPath: basicEnemy
+      value: 
+      objectReference: {fileID: 180532, guid: 2d77deeabc605fc4da1369980535b7fc, type: 2}
+    - target: {fileID: 11436146, guid: a1f8997863c3f94439e43f2e57383f41, type: 2}
+      propertyPath: enemyManager
+      value: 
+      objectReference: {fileID: 780218003}
+    - target: {fileID: 11486060, guid: a1f8997863c3f94439e43f2e57383f41, type: 2}
+      propertyPath: platformManager
+      value: 
+      objectReference: {fileID: 780218004}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a1f8997863c3f94439e43f2e57383f41, type: 2}
   m_IsPrefabParent: 0

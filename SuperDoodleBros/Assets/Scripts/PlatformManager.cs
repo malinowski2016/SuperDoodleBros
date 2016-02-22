@@ -3,8 +3,13 @@ using System.Collections.Generic;
 
 public class PlatformManager : MonoBehaviour {
 
-	private Vector3 _NextSpawn = new Vector3 (0, -1, 0);
+	public Vector3 _NextSpawn = new Vector3 (0, -1, 0);
 
+	// These get passed to EnemyManager
+	public Vector3 _LastSpawn;
+	public float _LastWidth;
+
+	public EnemyManager enemyManager;
 	public GameObject platform_prefab;
 	public float SpawnDistance = 5;
 
@@ -63,14 +68,24 @@ public class PlatformManager : MonoBehaviour {
 
 		_InUse.Enqueue (platform);
 		MovePlatformToPosition (platform);
+
+		//enemyManager.SpawnEnemy (_LastSpawn, _LastWidth);
 	}
 
 	private void MovePlatformToPosition(GameObject platform){
 		platform.transform.position = _NextSpawn;
+		_LastSpawn = _NextSpawn;
+		_LastWidth = Random.Range (MinWidth, MaxWidth);
 		platform.transform.localScale = new Vector3 (
-			Random.Range (MinWidth, MaxWidth),
+			_LastWidth,
 			0.1f,
 			1f);
+
+
+		// shouldn't do this here
+
+		Vector3 enemy_spawn = new Vector3 (_LastSpawn.x, _LastSpawn.y + .2f, _LastSpawn.z);
+		enemyManager.SpawnEnemy (enemy_spawn, _LastWidth);
 
 		//var offset = new Vector3 (Random.Range (MinX, MaxX), Random.Range (MinDistance, MaxDistance));
 		//_NextSpawn = new Vector3(Random.Range (MinX, MaxX), Random.Range (MinDistance, MaxDistance) + );

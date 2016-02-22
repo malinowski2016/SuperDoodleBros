@@ -13,6 +13,8 @@ GameObject:
   - 124: {fileID: 12483824}
   - 81: {fileID: 8185976}
   - 114: {fileID: 11434554}
+  - 114: {fileID: 11436146}
+  - 114: {fileID: 11486060}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -91,6 +93,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15cee0ef8b1dda642bb7386df03d9271, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &11436146
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 145568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 440bcece440cfc846a3d083eb2fe52ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  platform_prefab: {fileID: 162864, guid: 0086af4bb8cf6a24494236cf92cb454f, type: 2}
+  SpawnDistance: 10
+  MinWidth: 2
+  MaxWidth: 8
+  MinDistance: -2
+  MaxDistance: 3.5
+  MinX: -12
+  MaxX: 8
+--- !u!114 &11486060
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 145568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e3b863f8138d3b4b87dd6a57645208c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  basicEnemy: {fileID: 11494838, guid: 2d77deeabc605fc4da1369980535b7fc, type: 2}
+  trackerEnemy: {fileID: 11437110, guid: f62eaace763f9f74c83cabbe9c75b1ea, type: 2}
 --- !u!124 &12483824
 Behaviour:
   m_ObjectHideFlags: 1

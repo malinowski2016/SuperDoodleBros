@@ -90,7 +90,8 @@ Animation:
   m_Enabled: 1
   serializedVersion: 3
   m_Animation: {fileID: 7400000, guid: 9d3145cf9ee067940baeff9af4ec531d, type: 2}
-  m_Animations: []
+  m_Animations:
+  - {fileID: 7400000, guid: 9d3145cf9ee067940baeff9af4ec531d, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
@@ -106,7 +107,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 496d84103dd6a9b49bf9022cfea8c29f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireball_velo: 1.5
+  fireball_velo: 1.85
 --- !u!212 &21246396
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -150,7 +151,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: fireball_velo
-      value: 1.5
+      value: 1.85
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_Controller
