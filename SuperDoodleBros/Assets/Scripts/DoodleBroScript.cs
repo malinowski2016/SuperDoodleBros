@@ -91,7 +91,7 @@ public class DoodleBroScript : MonoBehaviour {
 	}
 
 	void OnCollisionExit(){
-
+		Debug.Log (string.Format ("Exit collision"));
 		_OnPlatform = false;
 
 //		col.gameObject.GetComponent<Collider2D> ().enabled = true;
