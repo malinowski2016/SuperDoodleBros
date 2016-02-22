@@ -237,6 +237,10 @@ Prefab:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 11457208, guid: e4311ef09c2ad624198f1cde85a72f44, type: 2}
+      propertyPath: weapon_prefab
+      value: 
+      objectReference: {fileID: 127426, guid: aa061abe8b9a40747ba8a82ea04f677d, type: 2}
     m_RemovedComponents:
     - {fileID: 5444262, guid: e4311ef09c2ad624198f1cde85a72f44, type: 2}
     - {fileID: 6435336, guid: e4311ef09c2ad624198f1cde85a72f44, type: 2}
@@ -289,6 +293,11 @@ Prefab:
       propertyPath: platformManager
       value: 
       objectReference: {fileID: 780218009}
+    - target: {fileID: 11486060, guid: a1f8997863c3f94439e43f2e57383f41, type: 2}
+      propertyPath: basicEnemy
+      value: 
+      objectReference: {fileID: 11484742, guid: 2d77deeabc605fc4da1369980535b7fc,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a1f8997863c3f94439e43f2e57383f41, type: 2}
   m_IsPrefabParent: 0
