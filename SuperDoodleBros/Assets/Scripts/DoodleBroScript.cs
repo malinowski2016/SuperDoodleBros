@@ -43,6 +43,12 @@ public class DoodleBroScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+		if (this.gameObject.GetComponent<Rigidbody2D> ().velocity.y == 0) {
+			_OnPlatform = true;
+		} else {
+			_OnPlatform = false;
+		}
+
 		if (_OnPlatform && Input.GetKeyDown (KeyCode.UpArrow)) {
 			animator.SetInteger ("AnimState", 0);
 			rigidBody.AddForce (JumpVelocity, ForceMode2D.Impulse);
