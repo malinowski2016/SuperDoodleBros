@@ -11,11 +11,8 @@ public class BasicEnemyBehavior : MonoBehaviour
 	public float range = 0.0001f;
 
 	// Health
-    public int maxHealth = 30;
-    public int currentHealth;
-
-	// Attacks
-    public int attackDamage = 20;
+    public float maxHealth = 20f;
+    public float currentHealth;
 
     // Use this for initialization
     void Start()
@@ -31,12 +28,23 @@ public class BasicEnemyBehavior : MonoBehaviour
 		Vector3 pos = new Vector3(initialPos.x - range/2 + Mathf.PingPong(speed * Time.time, range), this.gameObject.transform.position.y, 0f);
         transform.position = pos;
 
+		CheckDestroy ();
+    }
+
+	void CheckDestroy() {
 		var miny = Camera.main.transform.position.y - Camera.main.orthographicSize - 1;
-		if (transform.position.y < miny) {
-			//Debug.Log ("Destroyed Basic Enemy out of view");
+		if (currentHealth <= 0 || transform.position.y < miny) {
 			Destroy (gameObject);
 		}
-    }
+	}
+
+	void OnCollisionEnter2D(Collision2D col){
+		FireballManager fireball = col.gameObject.GetComponent<FireballManager> ();
+		if (fireball) {
+			//Debug.Log (fireball.damage);
+			currentHealth -= fireball.damage;
+		}
+	}
 
 	// Either spawn on platform or make prefabs w/ enemies included
 	public GameObject SpawnBasicEnemy(Vector3 spawnPos, float platWidth) {

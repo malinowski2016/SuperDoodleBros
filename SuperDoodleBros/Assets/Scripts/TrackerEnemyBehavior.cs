@@ -4,6 +4,7 @@ using System.Collections;
 public class TrackerEnemyBehavior : MonoBehaviour {
 
 	public GameObject tracker_enemy_prefab;
+	private EnemyManager enemyManager;
 
 	// Movement
     private GameObject target;
@@ -14,14 +15,9 @@ public class TrackerEnemyBehavior : MonoBehaviour {
 	Vector3 direction;
 
 	// Health
-	public float maxHealth = 100f;
+	public float maxHealth = 10f; //number of seconds before expiration if decayRate==1 
 	public float currentHealth;
-	public float decayRate = 0.1f;
-
-	// Attack
-    public int attackDmg = 10;
-	public int range = 200;
-    PlayerHealth playerHealth;
+	public float decayRate = 1f;
  
  
 	void Start (){
@@ -29,24 +25,22 @@ public class TrackerEnemyBehavior : MonoBehaviour {
 
         target = GameObject.FindWithTag("Player");
         targetTrans = target.transform;
-        playerHealth = target.GetComponent<PlayerHealth>();
-
-		//Physics2D.IgnoreCollision(gameObject.GetComponent<Collider2D>
     }
  
  	void Update (){
-		direction = targetTrans.position - transform.position;
-		//if (Vector3.Distance(transform.position,targetTrans.position) <= range) {
-			//Debug.Log("IN RANGE");
-		transform.position += direction.normalized * MoveSpeed * Time.deltaTime;
-		//}
+		if (target != null) {
+			direction = targetTrans.position - transform.position;
+			transform.position += direction.normalized * MoveSpeed * Time.deltaTime;
 
-		// Destroys tracker after certain amount of time
+			// Destroys tracker after certain amount of time
 			// *** ADD HEALTHBAR OR TIMER so that player knows when it'll stop chasing
-				// *** Add dmg from explosion or something
+			// *** Add dmg from explosion or a slow or something
 			// *** Potentially use "Destroy(GameObject, destroyTime)" instead?
-		currentHealth -= Time.deltaTime * decayRate;
-		CheckDestroy ();
+
+			//currentHealth -= Time.deltaTime * decayRate;
+
+			CheckDestroy ();
+		}
     }
 
 	void CheckDestroy() {
@@ -61,25 +55,25 @@ public class TrackerEnemyBehavior : MonoBehaviour {
 		return enemy;
 	}
 
-/*TURNED OFF COLLIDER TO AVOID COLLISIONS W/ PLATFORMS
-	void OnCollisionEnter2D(Collision2D other)
-    {
-        // If the entering collider is the player...
-		if (other.gameObject == target) {
-			if (playerHealth.currentHealth > 0) {
-				playerHealth.TakeDamage (attackDmg);
-			}
-		} else if (other.gameObject.tag == "projectile") {
-			Destroy (gameObject);
-		} else {
-			Physics2D.IgnoreCollision (other.collider, collider); //gameObject.GetComponent<Collider2D>);
+	void OnCollisionEnter2D(Collision2D col){
+		FireballManager fireball = col.gameObject.GetComponent<FireballManager> ();
+		if (fireball) {
+			currentHealth -= fireball.damage;
 		}
-    }
+			
+		//	Destroy (target);
+		//		if (this.gameObject.transform.position.y < col.gameObject.transform.position.y) {
+		//			col.gameObject.GetComponent<Collider2D> ().enabled = false;
+		//			Debug.Log (string.Format ("SHOULD GO THROUGH"));
+		//		} else {
+		//			this.GetComponent<Collider2D> ().enabled = true;
+		//		}
 
-    void OnCollisionExit()
-    {
-        // If the exiting collider is the player...
-        //if (other.gameObject == target) { }
-    }
-    */
+	}
+
+	void OnCollisionExit(){
+		//Debug.Log (string.Format ("Exit collision"));
+
+		//		col.gameObject.GetComponent<Collider2D> ().enabled = true;
+	}
 }

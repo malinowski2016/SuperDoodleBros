@@ -50,7 +50,7 @@
      <Compile Include="Assets\Scripts\CameraAutoScroll.cs" />
      <Compile Include="Assets\Scripts\DisplayPlayerHealth.cs" />
      <Compile Include="Assets\Scripts\DoodleBroScript.cs" />
-     <Compile Include="Assets\Scripts\EnemyHealthBar.cs" />
+     <Compile Include="Assets\Scripts\EnemyHealth.cs" />
      <Compile Include="Assets\Scripts\EnemyManager.cs" />
      <Compile Include="Assets\Scripts\PlatformBehavior.cs" />
      <Compile Include="Assets\Scripts\PlatformManager.cs" />

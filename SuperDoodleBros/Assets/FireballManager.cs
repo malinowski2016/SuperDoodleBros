@@ -5,6 +5,7 @@ public class FireballManager : MonoBehaviour {
 
 	private Vector3 velocity; 
 	public float fireball_velo = 1f;
+	public float damage = 10f;
 
 	// Use this for initialization
 	void Start () {
