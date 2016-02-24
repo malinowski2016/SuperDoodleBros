@@ -10,6 +10,9 @@ public class DoodleBroScript : MonoBehaviour {
 	public Vector3 JumpVelocity;
 
 	public GameObject weapon_prefab;
+	public GameObject green_weapon_prefab;
+
+	public int weapon_choice = 0;
 
 	private bool _OnPlatform;
 	private Animator animator;
@@ -42,6 +45,12 @@ public class DoodleBroScript : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+
+		if (this.gameObject.GetComponent<Rigidbody2D> ().velocity.y == 0) {
+			_OnPlatform = true;
+		} else {
+			_OnPlatform = false;
+		}
 
 		if (_OnPlatform && Input.GetKeyDown (KeyCode.UpArrow)) {
 			animator.SetInteger ("AnimState", 0);
@@ -102,7 +111,14 @@ public class DoodleBroScript : MonoBehaviour {
 	}
 
 	private void FireWeapon(){
-		var weapon = Instantiate (weapon_prefab);
+		GameObject weapon;
+		if (weapon_choice == 0) {
+			weapon = Instantiate (weapon_prefab);
+		} else if (weapon_choice == 1) {
+			weapon = Instantiate (green_weapon_prefab);
+		} else {
+			weapon = Instantiate (weapon_prefab);
+		}
 		var doodle_pos = this.gameObject.transform.position;
 
 		float velo;
