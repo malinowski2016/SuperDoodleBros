@@ -74,11 +74,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   basic_enemy_prefab: {fileID: 156038}
+  dirRight: 1
   speed: 4.5
-  range: 4.540056
-  maxHealth: 100
+  range: 5.763404
+  maxHealth: 5
   currentHealth: 0
-  attackDamage: 20
 --- !u!212 &21218784
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -123,6 +123,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: speed
       value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: maxHealth
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

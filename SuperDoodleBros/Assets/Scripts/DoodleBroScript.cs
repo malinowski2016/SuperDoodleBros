@@ -52,6 +52,15 @@ public class DoodleBroScript : MonoBehaviour {
 			_OnPlatform = false;
 		}
 
+		if (Input.GetKeyDown (KeyCode.RightShift)) {
+			if (weapon_choice == 0) {
+				weapon_choice = 1;
+			}
+			else {
+				weapon_choice = 0;
+			}
+		}
+
 		if (_OnPlatform && Input.GetKeyDown (KeyCode.UpArrow)) {
 			animator.SetInteger ("AnimState", 0);
 			rigidBody.AddForce (JumpVelocity, ForceMode2D.Impulse);

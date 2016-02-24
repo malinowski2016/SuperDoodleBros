@@ -121,6 +121,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Acceleration: {x: 150, y: 0, z: 0}
   JumpVelocity: {x: 0, y: 9, z: 0}
+  weapon_prefab: {fileID: 127426, guid: aa061abe8b9a40747ba8a82ea04f677d, type: 2}
+  green_weapon_prefab: {fileID: 137990, guid: a94436fa1fd3d2646b06032942a7ed75, type: 2}
+  weapon_choice: 0
+  dir_facing: 1
 --- !u!212 &21233116
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -157,7 +161,15 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: weapon_prefab
+      value: 
+      objectReference: {fileID: 127426, guid: aa061abe8b9a40747ba8a82ea04f677d, type: 2}
+    - target: {fileID: 0}
+      propertyPath: green_weapon_prefab
+      value: 
+      objectReference: {fileID: 137990, guid: a94436fa1fd3d2646b06032942a7ed75, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 189796}

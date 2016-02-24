@@ -296,8 +296,19 @@ Prefab:
     - target: {fileID: 11486060, guid: a1f8997863c3f94439e43f2e57383f41, type: 2}
       propertyPath: basicEnemy
       value: 
-      objectReference: {fileID: 11484742, guid: 2d77deeabc605fc4da1369980535b7fc,
-        type: 2}
+      objectReference: {fileID: 180532, guid: 2d77deeabc605fc4da1369980535b7fc, type: 2}
+    - target: {fileID: 11436146, guid: a1f8997863c3f94439e43f2e57383f41, type: 2}
+      propertyPath: bouncy_platform_prefab
+      value: 
+      objectReference: {fileID: 181398, guid: 4a1f002ff0ffabf4cbbc16a94c29ce02, type: 2}
+    - target: {fileID: 11436146, guid: a1f8997863c3f94439e43f2e57383f41, type: 2}
+      propertyPath: platform
+      value: 
+      objectReference: {fileID: 162864, guid: 0086af4bb8cf6a24494236cf92cb454f, type: 2}
+    - target: {fileID: 11486060, guid: a1f8997863c3f94439e43f2e57383f41, type: 2}
+      propertyPath: middleEnemy
+      value: 
+      objectReference: {fileID: 156038, guid: 91a513c4c8fa91f4e944484286a742e8, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a1f8997863c3f94439e43f2e57383f41, type: 2}
   m_IsPrefabParent: 0
