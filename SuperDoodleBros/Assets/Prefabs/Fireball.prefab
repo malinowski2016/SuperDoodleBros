@@ -13,7 +13,7 @@ GameObject:
   - 58: {fileID: 5832898}
   - 114: {fileID: 11406976}
   - 95: {fileID: 9566808}
-  - 111: {fileID: 11144434}
+  - 111: {fileID: 11118208}
   m_Layer: 0
   m_Name: Fireball
   m_TagString: Untagged
@@ -81,7 +81,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!111 &11144434
+--- !u!111 &11118208
 Animation:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}

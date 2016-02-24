@@ -12,6 +12,9 @@ public class PlatformManager : MonoBehaviour {
 	public EnemyManager enemyManager;
 	public GameObject platform_prefab;
 	public GameObject bouncy_platform_prefab;
+
+	public GameObject platform;
+
 	public float SpawnDistance = 5;
 
 	private Queue<GameObject> _InUse = new Queue<GameObject>();
@@ -59,7 +62,7 @@ public class PlatformManager : MonoBehaviour {
 
 	private void SpawnNewPlatform(){
 
-		GameObject platform;
+		//GameObject platform;
 		if (_Available.Count > 0) {
 			platform = _Available.Dequeue ();
 			platform.SetActive (true);
@@ -92,6 +95,8 @@ public class PlatformManager : MonoBehaviour {
 
 		Vector3 enemy_spawn = new Vector3 (_LastSpawn.x, _LastSpawn.y + .2f, _LastSpawn.z);
 		enemyManager.SpawnEnemy (enemy_spawn, _LastWidth);
+
+		//enemyManager.SpawnEnemy (enemy_spawn, platform);
 
 		//var offset = new Vector3 (Random.Range (MinX, MaxX), Random.Range (MinDistance, MaxDistance));
 		//_NextSpawn = new Vector3(Random.Range (MinX, MaxX), Random.Range (MinDistance, MaxDistance) + );

@@ -13,7 +13,7 @@ GameObject:
   - 58: {fileID: 5898634}
   - 114: {fileID: 11490444}
   - 95: {fileID: 9550086}
-  - 111: {fileID: 11149694}
+  - 111: {fileID: 11102842}
   m_Layer: 0
   m_Name: Fireball-Green
   m_TagString: Untagged
@@ -81,7 +81,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!111 &11149694
+--- !u!111 &11102842
 Animation:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -193,6 +193,10 @@ Prefab:
       propertyPath: m_AnimatePhysics
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 4b0cfb70a7df1984aac9860afe1661d0, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 137990}

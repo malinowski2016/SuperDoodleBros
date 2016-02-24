@@ -158,7 +158,7 @@ Prefab:
       objectReference: {fileID: 137990, guid: a94436fa1fd3d2646b06032942a7ed75, type: 2}
     - target: {fileID: 11457208, guid: e4311ef09c2ad624198f1cde85a72f44, type: 2}
       propertyPath: weapon_choice
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e4311ef09c2ad624198f1cde85a72f44, type: 2}
@@ -307,6 +307,10 @@ Prefab:
       propertyPath: MinDistance
       value: -1
       objectReference: {fileID: 0}
+    - target: {fileID: 11486060, guid: a1f8997863c3f94439e43f2e57383f41, type: 2}
+      propertyPath: middleEnemy
+      value: 
+      objectReference: {fileID: 156038, guid: 91a513c4c8fa91f4e944484286a742e8, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a1f8997863c3f94439e43f2e57383f41, type: 2}
   m_IsPrefabParent: 0
