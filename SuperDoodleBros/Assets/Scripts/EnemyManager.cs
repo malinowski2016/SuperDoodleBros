@@ -3,7 +3,12 @@ using System.Collections;
 
 public class EnemyManager : MonoBehaviour {
 	public PlatformManager platformManager;
+<<<<<<< HEAD
 	public BasicEnemyBehavior basicEnemy;
+=======
+	public GameObject basicEnemy;
+	public GameObject middleEnemy;
+>>>>>>> origin/master
 	public TrackerEnemyBehavior trackerEnemy;
 
 	// Use this for initialization
@@ -17,12 +22,25 @@ public class EnemyManager : MonoBehaviour {
 	}
 
 	public void SpawnEnemy(Vector3 spawnPos, float platWidth){
+<<<<<<< HEAD
 		int enemyType = Random.Range (1, 100);
 
 		if (enemyType <= 70) {					// No enemy
 			return;
 		} else if (enemyType <= 90){			// Basic enemy
 			basicEnemy.SpawnBasicEnemy(spawnPos, platWidth);
+=======
+	//public void SpawnEnemy(Vector3 spawnPos, GameObject platform){
+		GameObject enemy;
+		int enemyType = Random.Range (1, 100);
+
+		if (enemyType <= 70) {					// No enemy
+			enemy = null;
+		} else if (enemyType <= 90) {			// Basic enemy
+			enemy = basicEnemy.GetComponent<BasicEnemyBehavior> ().SpawnBasicEnemy (spawnPos, platWidth);
+		} else if (enemyType <= 96) {
+			enemy = middleEnemy.GetComponent<BasicEnemyBehavior> ().SpawnBasicEnemy (spawnPos, platWidth);
+>>>>>>> origin/master
 		} else {								// Tracker enemy					
 			trackerEnemy.SpawnTrackerEnemy(spawnPos);
 		}
