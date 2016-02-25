@@ -28,9 +28,6 @@ public class CameraAutoScroll : MonoBehaviour {
 				camera_speed = 0.5f;
 			}
 			transform.Translate ((Vector3.up * (float)(Time.deltaTime * camera_speed)), Space.World);
-
-			}
-			transform.Translate ((Vector3.up * (float)(Time.deltaTime * camera_speed)), Space.World);
 		} else{
 			
 		}
