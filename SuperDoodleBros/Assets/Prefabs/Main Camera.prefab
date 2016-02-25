@@ -104,11 +104,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 440bcece440cfc846a3d083eb2fe52ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _NextSpawn: {x: 0, y: -1, z: 0}
+  _LastSpawn: {x: 0, y: 0, z: 0}
+  _LastWidth: 0
+  enemyManager: {fileID: 11486060}
   platform_prefab: {fileID: 162864, guid: 0086af4bb8cf6a24494236cf92cb454f, type: 2}
+  bouncy_platform_prefab: {fileID: 181398, guid: 4a1f002ff0ffabf4cbbc16a94c29ce02,
+    type: 2}
+  platform: {fileID: 0}
   SpawnDistance: 10
   MinWidth: 2
-  MaxWidth: 8
-  MinDistance: -2
+  MaxWidth: 6
+  MinDistance: -1
   MaxDistance: 3.5
   MinX: -12
   MaxX: 8
@@ -123,7 +130,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e3b863f8138d3b4b87dd6a57645208c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  basicEnemy: {fileID: 11494838, guid: 2d77deeabc605fc4da1369980535b7fc, type: 2}
+  platformManager: {fileID: 11436146}
+  basicEnemy: {fileID: 180532, guid: 2d77deeabc605fc4da1369980535b7fc, type: 2}
+  middleEnemy: {fileID: 156038, guid: 91a513c4c8fa91f4e944484286a742e8, type: 2}
   trackerEnemy: {fileID: 11437110, guid: f62eaace763f9f74c83cabbe9c75b1ea, type: 2}
 --- !u!124 &12483824
 Behaviour:

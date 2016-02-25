@@ -13,11 +13,22 @@ public class CameraAutoScroll : MonoBehaviour {
 	
 		var cameraPosition = transform.localPosition;
 
+		var maxY = Camera.main.orthographicSize + Camera.main.transform.position.y;
+		float camera_speed;
+
 		var maxHeight = 20.0;
 
+		var player_y = GameObject.FindGameObjectWithTag ("Player").gameObject.transform.position.y;
+
 		if (GameObject.FindGameObjectWithTag("Player") != null) {
-			transform.Translate ((Vector3.up * (float)(Time.deltaTime * 0.5)), Space.World);
-		} else {
+			if (player_y > (maxY - 0.2f)) {
+				camera_speed = 2.5f;
+			} else {
+				camera_speed = 0.5f;
+
+			}
+			transform.Translate ((Vector3.up * (float)(Time.deltaTime * camera_speed)), Space.World);
+		} else{
 			
 		}
 
