@@ -74,8 +74,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   basic_enemy_prefab: {fileID: 180532}
+  dirRight: 1
   speed: 4
-  range: 7.4706893
+  range: 6.4365826
   maxHealth: 20
   currentHealth: 0
 --- !u!212 &21238940
