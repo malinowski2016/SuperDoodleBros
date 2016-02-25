@@ -91,10 +91,12 @@ public class PlatformManager : MonoBehaviour {
 			1f);
 
 
-		// shouldn't do this here
-
-		Vector3 enemy_spawn = new Vector3 (_LastSpawn.x, _LastSpawn.y + .2f, _LastSpawn.z);
-		enemyManager.SpawnEnemy (enemy_spawn, _LastWidth);
+		// shouldn't do this here <-- Yea, probs -M
+		//Added delay so that you don't die immediately
+		if (Time.time > 1) {
+			Vector3 enemy_spawn = new Vector3 (_LastSpawn.x, _LastSpawn.y + .2f, _LastSpawn.z);
+			enemyManager.SpawnEnemy (enemy_spawn, _LastWidth);
+		}
 
 		//enemyManager.SpawnEnemy (enemy_spawn, platform);
 

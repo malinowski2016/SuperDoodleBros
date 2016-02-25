@@ -12,11 +12,8 @@ public class BasicEnemyBehavior : MonoBehaviour
 	public float range = 0.0001f;
 
 	// Health
-    public int maxHealth = 30;
-    public int currentHealth;
-
-	// Attacks
-    public int attackDamage = 20;
+    public float maxHealth = 20f;
+    public float currentHealth;
 
     // Use this for initialization
     void Start()
@@ -55,12 +52,23 @@ public class BasicEnemyBehavior : MonoBehaviour
 		}
 		*/
 
+		CheckDestroy ();
+    }
+
+	void CheckDestroy() {
 		var miny = Camera.main.transform.position.y - Camera.main.orthographicSize - 1;
-		if (transform.position.y < miny) {
-			//Debug.Log ("Destroyed Basic Enemy out of view");
+		if (currentHealth <= 0 || transform.position.y < miny) {
 			Destroy (gameObject);
 		}
-    }
+	}
+
+	void OnCollisionEnter2D(Collision2D col){
+		FireballManager fireball = col.gameObject.GetComponent<FireballManager> ();
+		if (fireball) {
+			//Debug.Log (fireball.damage);
+			currentHealth -= fireball.damage;
+		}
+	}
 
 	private void FlipEnemy(){
 		Debug.Log (string.Format ("Flip"));

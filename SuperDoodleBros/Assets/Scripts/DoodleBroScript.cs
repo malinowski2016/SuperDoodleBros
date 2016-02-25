@@ -52,6 +52,15 @@ public class DoodleBroScript : MonoBehaviour {
 			_OnPlatform = false;
 		}
 
+		if (Input.GetKeyDown (KeyCode.RightShift)) {
+			if (weapon_choice == 0) {
+				weapon_choice = 1;
+			}
+			else {
+				weapon_choice = 0;
+			}
+		}
+
 		if (_OnPlatform && Input.GetKeyDown (KeyCode.UpArrow)) {
 			animator.SetInteger ("AnimState", 0);
 			rigidBody.AddForce (JumpVelocity, ForceMode2D.Impulse);
@@ -88,8 +97,11 @@ public class DoodleBroScript : MonoBehaviour {
 		
 	void OnCollisionEnter2D(Collision2D col){
 
-		if(col.gameObject.tag == "Platform") _OnPlatform = true;
-
+		if (col.gameObject.tag == "Platform")
+			_OnPlatform = true;
+		else if (col.gameObject.tag == "Enemy")
+			Destroy (this.gameObject);			// 1 hit kill
+		
 //		if (this.gameObject.transform.position.y < col.gameObject.transform.position.y) {
 //			col.gameObject.GetComponent<Collider2D> ().enabled = false;
 //			Debug.Log (string.Format ("SHOULD GO THROUGH"));
@@ -101,6 +113,7 @@ public class DoodleBroScript : MonoBehaviour {
 
 	void OnCollisionExit(){
 		Debug.Log (string.Format ("Exit collision"));
+		//This will get reset if hits an enemy... but player dies anyway so lol
 		_OnPlatform = false;
 
 //		col.gameObject.GetComponent<Collider2D> ().enabled = true;
