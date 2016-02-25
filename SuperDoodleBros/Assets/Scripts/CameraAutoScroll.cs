@@ -22,7 +22,7 @@ public class CameraAutoScroll : MonoBehaviour {
 
 		if (GameObject.FindGameObjectWithTag("Player") != null) {
 			var player_y = GameObject.FindGameObjectWithTag ("Player").gameObject.transform.position.y;
-			if (player_y > (maxY - 0.2f)) {
+			if (player_y > (maxY - 2f)) {
 				camera_speed = 2.5f;
 			} else {
 				camera_speed = 0.5f;
