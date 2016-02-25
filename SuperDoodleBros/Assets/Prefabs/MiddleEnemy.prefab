@@ -76,8 +76,8 @@ MonoBehaviour:
   basic_enemy_prefab: {fileID: 156038}
   dirRight: 1
   speed: 4.5
-  range: 5.763404
-  maxHealth: 5
+  range: 7.7540364
+  maxHealth: 50
   currentHealth: 0
 --- !u!212 &21218784
 SpriteRenderer:
@@ -126,7 +126,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: maxHealth
-      value: 5
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
