@@ -18,9 +18,8 @@ public class CameraAutoScroll : MonoBehaviour {
 
 		var maxHeight = 20.0;
 
-		var player_y = GameObject.FindGameObjectWithTag ("Player").gameObject.transform.position.y;
-
 		if (GameObject.FindGameObjectWithTag("Player") != null) {
+			var player_y = GameObject.FindGameObjectWithTag ("Player").gameObject.transform.position.y;
 			if (player_y > (maxY - 0.2f)) {
 				camera_speed = 2.5f;
 			} else {
