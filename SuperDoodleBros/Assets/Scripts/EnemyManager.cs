@@ -28,7 +28,7 @@ public class EnemyManager : MonoBehaviour {
 			enemy = null;
 		} else if (enemyType <= 80) {			// Basic enemy
 			enemy = basicEnemy.GetComponent<BasicEnemyBehavior> ().SpawnBasicEnemy (spawnPos, platWidth);
-		} else if (enemyType <= 90) {
+		} else if (enemyType <= 95) {
 			enemy = middleEnemy.GetComponent<BasicEnemyBehavior> ().SpawnBasicEnemy (spawnPos, platWidth);
 		} else {								// Tracker enemy					
 			trackerEnemy.SpawnTrackerEnemy(spawnPos);
