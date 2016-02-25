@@ -24,11 +24,11 @@ public class EnemyManager : MonoBehaviour {
 		GameObject enemy;
 		int enemyType = Random.Range (1, 100);
 
-		if (enemyType <= 60) {					// No enemy
+		if (enemyType <= 70) {					// No enemy
 			enemy = null;
-		} else if (enemyType <= 80) {			// Basic enemy
+		} else if (enemyType <= 90) {			// Basic enemy
 			enemy = basicEnemy.GetComponent<BasicEnemyBehavior> ().SpawnBasicEnemy (spawnPos, platWidth);
-		} else if (enemyType <= 95) {
+		} else if (enemyType <= 96) {
 			enemy = middleEnemy.GetComponent<BasicEnemyBehavior> ().SpawnBasicEnemy (spawnPos, platWidth);
 		} else {								// Tracker enemy					
 			trackerEnemy.SpawnTrackerEnemy(spawnPos);
