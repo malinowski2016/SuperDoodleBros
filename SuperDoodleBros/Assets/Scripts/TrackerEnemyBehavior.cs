@@ -38,7 +38,7 @@ public class TrackerEnemyBehavior : MonoBehaviour {
 			// *** Potentially use "Destroy(GameObject, destroyTime)" instead?
 
 	//***********COMMENT OUT UNTIL COLLIDER IGNORE FIXED
-			//currentHealth -= Time.deltaTime * decayRate;
+			currentHealth -= Time.deltaTime * decayRate;
 
 			CheckDestroy ();
 		}
