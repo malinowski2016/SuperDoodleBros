@@ -4,6 +4,7 @@ using System.Collections;
 public class BasicEnemyBehavior : MonoBehaviour
 {
 	public GameObject basic_enemy_prefab;
+	public ScoreTracker score;
 
 	// Movement
     private Vector3 initialPos;
@@ -20,7 +21,6 @@ public class BasicEnemyBehavior : MonoBehaviour
     {
         currentHealth = maxHealth;
         initialPos = transform.position;
-
     }
 
     // Update is called once per frame
@@ -57,7 +57,12 @@ public class BasicEnemyBehavior : MonoBehaviour
 
 	void CheckDestroy() {
 		var miny = Camera.main.transform.position.y - Camera.main.orthographicSize - 1;
-		if (currentHealth <= 0 || transform.position.y < miny) {
+		if (currentHealth <= 0) {
+			score.numBasic += 1;
+			score.AddScore (20f);
+			Destroy (gameObject);
+		}
+		else if (transform.position.y < miny) {
 			Destroy (gameObject);
 		}
 	}

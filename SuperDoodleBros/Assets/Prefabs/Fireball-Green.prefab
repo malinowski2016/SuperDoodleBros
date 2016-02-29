@@ -107,6 +107,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 496d84103dd6a9b49bf9022cfea8c29f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: {fileID: 11401388, guid: 08c93ce1f8062a64d9ffbc7ffaa7deaa, type: 2}
   fireball_velo: 3.5
   damage: 10
 --- !u!212 &21235516
@@ -202,6 +203,11 @@ Prefab:
       propertyPath: damage
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 11401388, guid: 08c93ce1f8062a64d9ffbc7ffaa7deaa,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 137990}

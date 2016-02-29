@@ -3,6 +3,8 @@ using System.Collections;
 
 public class FireballManager : MonoBehaviour {
 
+	public ScoreTracker score;
+
 	private Vector3 velocity; 
 	public float fireball_velo = 1f;
 	public float damage = 10f;
@@ -34,6 +36,7 @@ public class FireballManager : MonoBehaviour {
 		// eventually need to do damage
 		if (col.gameObject.tag == "Enemy") {
 			Debug.Log (string.Format ("Hit!"));
+			score.numHits += 1;
 			Destroy (this.gameObject);
 		}
 	}

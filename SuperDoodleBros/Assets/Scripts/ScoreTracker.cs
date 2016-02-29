@@ -2,14 +2,14 @@
 using UnityEngine.UI;
 using System.Collections;
 
-public class Score : MonoBehaviour {
+public class ScoreTracker : MonoBehaviour {
 
-	private Text myText;
-	public float score = 0;
+	public Text myText;
+	public float curr_score = 0;
 
 	// For reporting stat s
-	public int numBasic = 0;
-	public int numMiddle = 0;
+	public int numBasic = 0;		//combining the two for now
+	//public int numMiddle = 0;
 	public int numTrackers = 0;
 
 	public int numShots = 0;
@@ -28,12 +28,12 @@ public class Score : MonoBehaviour {
 	}
 
 	public void Reset() {
-		score = 0f;
-		myText.text = "Score: " + score.ToString ("#.00");
+		curr_score = 0f;
+		myText.text = "Score: " + curr_score.ToString ("#.00");
 	}
 		
 	public void AddScore(float points) {
-		score += points;
-		myText.text = "Score: " + score.ToString ("#.00");
+		curr_score += points;
+		myText.text = "Score: " + curr_score.ToString ("#.00");
 	}
 }

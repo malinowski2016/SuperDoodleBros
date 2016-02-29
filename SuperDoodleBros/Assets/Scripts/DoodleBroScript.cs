@@ -4,6 +4,8 @@ using System.Collections;
 
 public class DoodleBroScript : MonoBehaviour {
 
+	public ScoreTracker score;
+
 	public event Action CheckPlayerDeath = delegate{};
 
 	public Vector3 Acceleration;
@@ -142,6 +144,9 @@ public class DoodleBroScript : MonoBehaviour {
 		}
 
 		weapon.gameObject.transform.position = spawn;
+
+		score.numShots += 1;
+		//Debug.Log (score.numShots);
 	}
 
 }
