@@ -24,7 +24,9 @@ public class ScoreTracker : MonoBehaviour {
 
 	void Update() {
 		//WaitForSeconds(1);
-		AddScore(Time.deltaTime);
+		if (GameObject.FindGameObjectWithTag ("Player") != null) {
+			AddScore (Time.deltaTime);
+		}
 	}
 
 	public void Reset() {
