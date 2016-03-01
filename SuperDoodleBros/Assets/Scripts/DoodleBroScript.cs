@@ -15,12 +15,14 @@ public class DoodleBroScript : MonoBehaviour {
 	public GameObject green_weapon_prefab;
 
 	public int weapon_choice = 0;
+	public int unlock_score = 150;
 
 	private bool _OnPlatform;
 	private Animator animator;
 
 	// 1 is right, 0 is left
 	public int dir_facing = 1;
+	private bool weapon_unlocked = false;
 
 	private Rigidbody2D rigidBody;
 
@@ -54,8 +56,12 @@ public class DoodleBroScript : MonoBehaviour {
 			_OnPlatform = false;
 		}
 
+		if (!weapon_unlocked && score.curr_score > unlock_score) {
+			weapon_unlocked = true;
+		}
+
 		if (Input.GetKeyDown (KeyCode.RightShift)) {
-			if (weapon_choice == 0) {
+			if (weapon_choice == 0 && weapon_unlocked) {
 				weapon_choice = 1;
 			}
 			else {
