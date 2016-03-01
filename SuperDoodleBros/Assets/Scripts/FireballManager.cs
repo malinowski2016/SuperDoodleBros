@@ -21,6 +21,7 @@ public class FireballManager : MonoBehaviour {
 
 		this.gameObject.GetComponent<Rigidbody2D> ().AddForce (velocity, ForceMode2D.Force);
 
+		score = GameObject.FindGameObjectWithTag ("Score").GetComponent<ScoreTracker> ();
 	}
 	
 	// Update is called once per frame
