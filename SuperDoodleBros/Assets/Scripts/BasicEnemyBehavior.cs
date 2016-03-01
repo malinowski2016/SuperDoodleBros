@@ -21,6 +21,7 @@ public class BasicEnemyBehavior : MonoBehaviour
     {
         currentHealth = maxHealth;
         initialPos = transform.position;
+		score = GameObject.FindGameObjectWithTag ("Score").GetComponent<ScoreTracker> ();
     }
 
     // Update is called once per frame

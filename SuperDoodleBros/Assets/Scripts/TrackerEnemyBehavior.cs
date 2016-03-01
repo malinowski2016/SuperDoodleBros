@@ -26,6 +26,7 @@ public class TrackerEnemyBehavior : MonoBehaviour {
 
         target = GameObject.FindWithTag("Player");
         targetTrans = target.transform;
+		score = GameObject.FindGameObjectWithTag ("Score").GetComponent<ScoreTracker> ();
     }
  
  	void Update (){
