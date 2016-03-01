@@ -26,19 +26,23 @@ public class PlatformManager : MonoBehaviour {
 	public float MinDistance = 2;
 	public float MaxDistance = 10;
 
-	public float MinX = -10;
-	public float MaxX = 10;
+	//public float MinX = -10;
+	//public float MaxX = 10;
+
+	private float MinX;
+	private float MaxX;
 
 	// Use this for initialization
 	void Start () {
-	
+		MinX = Camera.main.transform.position.x - Camera.main.orthographicSize - 1f;
+		MaxX = Camera.main.transform.position.x + Camera.main.orthographicSize + 1f; 
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
 		var maxY = Camera.main.orthographicSize + Camera.main.transform.position.y;
-		var minY = Camera.main.transform.position.y - Camera.main.orthographicSize - 1;
+		var minY = Camera.main.transform.position.y - Camera.main.orthographicSize;
 
 		if (_InUse.Count > 0) {
 			// if platofrm is below minY, delete it
@@ -68,7 +72,7 @@ public class PlatformManager : MonoBehaviour {
 			platform.SetActive (true);
 		} else {
 			int rand = Random.Range (0, 10);
-			if (rand < 1) {
+			if (rand < 3) {
 				platform = GameObject.Instantiate (bouncy_platform_prefab);
 			} else {
 				platform = GameObject.Instantiate (platform_prefab);
@@ -82,6 +86,7 @@ public class PlatformManager : MonoBehaviour {
 	}
 
 	private void MovePlatformToPosition(GameObject platform){
+
 		platform.transform.position = _NextSpawn;
 		_LastSpawn = _NextSpawn;
 		_LastWidth = Random.Range (MinWidth, MaxWidth);
@@ -90,6 +95,8 @@ public class PlatformManager : MonoBehaviour {
 			0.1f,
 			1f);
 
+		// check for overlap
+		CheckOverlap();
 
 		// shouldn't do this here <-- Yea, probs -M
 		//Added delay so that you don't die immediately
@@ -104,5 +111,42 @@ public class PlatformManager : MonoBehaviour {
 		//_NextSpawn = new Vector3(Random.Range (MinX, MaxX), Random.Range (MinDistance, MaxDistance) + );
 		_NextSpawn.x = (Random.Range(MinX, MaxX));
 		_NextSpawn.y += (float) System.Math.Round(Random.Range (MinDistance, MaxDistance));
+	}
+
+	private void CheckOverlap(){
+		// if platform.y = _InUse.y, check X directions
+		var myY = platform.transform.position.y;
+		var myX = platform.transform.position.x;
+		var myScale = platform.transform.localScale.x;
+		GameObject[] my_platforms = _InUse.ToArray ();
+		for (int i = 0; i < _InUse.Count; i++) {
+			if (myY == my_platforms [i].transform.position.y && myScale != my_platforms[i].transform.localScale.x) {
+				// same y
+				var their_x = my_platforms[i].transform.position.x;
+				var their_scale = my_platforms [i].transform.localScale.x;
+
+				var right_overlap = (their_x + their_scale) - (myX - myScale);
+				var left_overlap = (myX + myScale) - (their_x - their_scale);
+
+				if (their_x < myX && right_overlap > 0) {
+					// OVERLAP!
+					// move right
+					//Debug.Log ("Thieir x: " + their_x + " their scale: " + their_scale + " My x: " + myX + " my scale: " + myScale + " \nDifference: " + right_overlap);
+					platform.transform.position = new Vector3 (myX + right_overlap, myY, platform.transform.position.z);
+				
+				} else if (their_x > myX && left_overlap > 0) {
+					// OVERLAP
+					platform.transform.position = new Vector3 (myX - left_overlap, myY, platform.transform.position.z);
+				} else if (their_x - their_scale < myX - myScale && their_x + their_scale > myX + myScale) {
+					// completely inside
+					//Debug.Log (string.Format ("I am completely inside it, deleted"));
+					RecyclePlatform ();
+				} else if (their_x + their_scale < myX + myScale && their_x - their_scale > myX - myScale) {
+					//Debug.Log (string.Format ("It is completely inside me, deleted"));
+					RecyclePlatform ();
+				}
+
+			}
+		}
 	}
 }
