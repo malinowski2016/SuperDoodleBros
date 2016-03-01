@@ -4,7 +4,8 @@ using System.Collections;
 public class TrackerEnemyBehavior : MonoBehaviour {
 
 	public GameObject tracker_enemy_prefab;
-	private EnemyManager enemyManager;
+	//private EnemyManager enemyManager;
+	public ScoreTracker score;
 
 	// Movement
     private GameObject target;
@@ -25,6 +26,7 @@ public class TrackerEnemyBehavior : MonoBehaviour {
 
         target = GameObject.FindWithTag("Player");
         targetTrans = target.transform;
+		score = GameObject.FindGameObjectWithTag ("Score").GetComponent<ScoreTracker> ();
     }
  
  	void Update (){
@@ -38,7 +40,7 @@ public class TrackerEnemyBehavior : MonoBehaviour {
 			// *** Potentially use "Destroy(GameObject, destroyTime)" instead?
 
 	//***********COMMENT OUT UNTIL COLLIDER IGNORE FIXED
-			//currentHealth -= Time.deltaTime * decayRate;
+			currentHealth -= Time.deltaTime * decayRate;
 
 			CheckDestroy ();
 		}
@@ -46,6 +48,9 @@ public class TrackerEnemyBehavior : MonoBehaviour {
 
 	void CheckDestroy() {
 		if (currentHealth <= 0) {
+			score.numTrackers += 1;
+			Debug.Log (score.numTrackers);
+			score.AddScore (10f);
 			Destroy (gameObject);
 		}
 	}

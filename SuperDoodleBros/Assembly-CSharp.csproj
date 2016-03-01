@@ -45,17 +45,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\FireballManager.cs" />
      <Compile Include="Assets\Scripts\BasicEnemyBehavior.cs" />
      <Compile Include="Assets\Scripts\CameraAutoScroll.cs" />
      <Compile Include="Assets\Scripts\DisplayPlayerHealth.cs" />
      <Compile Include="Assets\Scripts\DoodleBroScript.cs" />
      <Compile Include="Assets\Scripts\EnemyHealth.cs" />
      <Compile Include="Assets\Scripts\EnemyManager.cs" />
+     <Compile Include="Assets\Scripts\FireballManager.cs" />
      <Compile Include="Assets\Scripts\PlatformBehavior.cs" />
      <Compile Include="Assets\Scripts\PlatformManager.cs" />
      <Compile Include="Assets\Scripts\PlayerHealth.cs" />
      <Compile Include="Assets\Scripts\PlayerScript.cs" />
+     <Compile Include="Assets\Scripts\ScoreTracker.cs" />
      <Compile Include="Assets\Scripts\TrackerEnemyBehavior.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
