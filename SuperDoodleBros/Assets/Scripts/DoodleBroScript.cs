@@ -33,7 +33,7 @@ public class DoodleBroScript : MonoBehaviour {
 
 	void Start () {
 		rigidBody = gameObject.GetComponent<Rigidbody2D>();
-
+		score = GameObject.FindGameObjectWithTag ("Score").GetComponent<ScoreTracker> ();
 		CheckPlayerDeath += CheckDeletePlayer;
 	}
 
