@@ -76,8 +76,8 @@ MonoBehaviour:
   basic_enemy_prefab: {fileID: 180532}
   score: {fileID: 11401388, guid: 08c93ce1f8062a64d9ffbc7ffaa7deaa, type: 2}
   dirRight: 1
-  speed: 4
-  range: 3.483436
+  speed: 2.5
+  range: 1.6695174
   maxHealth: 20
   currentHealth: 0
 --- !u!212 &21238940
@@ -138,6 +138,10 @@ Prefab:
       value: 
       objectReference: {fileID: 11401388, guid: 08c93ce1f8062a64d9ffbc7ffaa7deaa,
         type: 2}
+    - target: {fileID: 0}
+      propertyPath: speed
+      value: 2.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 180532}

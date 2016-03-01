@@ -31,11 +31,11 @@ public class ScoreTracker : MonoBehaviour {
 
 	public void Reset() {
 		curr_score = 0f;
-		myText.text = "Score: " + curr_score.ToString ("#.00");
+		myText.text = "Score: " + curr_score.ToString ("#.0");
 	}
 		
 	public void AddScore(float points) {
 		curr_score += points;
-		myText.text = "Score: " + curr_score.ToString ("#.00");
+		myText.text = "Score: " + curr_score.ToString ("#.0");
 	}
 }
