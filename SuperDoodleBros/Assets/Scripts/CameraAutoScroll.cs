@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class CameraAutoScroll : MonoBehaviour {
 
@@ -33,7 +34,7 @@ public class CameraAutoScroll : MonoBehaviour {
 			}
 			transform.Translate ((Vector3.up * (float)(Time.deltaTime * camera_speed)), Space.World);
 		} else{
-			
+			SceneManager.LoadScene ("Death Screen");
 		}
 
 	}

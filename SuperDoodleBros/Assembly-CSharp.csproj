@@ -45,14 +45,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\LoadLevel.cs" />
      <Compile Include="Assets\Scripts\BasicEnemyBehavior.cs" />
      <Compile Include="Assets\Scripts\CameraAutoScroll.cs" />
      <Compile Include="Assets\Scripts\DisplayPlayerHealth.cs" />
+     <Compile Include="Assets\Scripts\DisplayStats.cs" />
      <Compile Include="Assets\Scripts\DoodleBroScript.cs" />
      <Compile Include="Assets\Scripts\EnemyHealth.cs" />
      <Compile Include="Assets\Scripts\EnemyManager.cs" />
      <Compile Include="Assets\Scripts\FireballManager.cs" />
+     <Compile Include="Assets\Scripts\LoadLevel.cs" />
      <Compile Include="Assets\Scripts\PlatformBehavior.cs" />
      <Compile Include="Assets\Scripts\PlatformManager.cs" />
      <Compile Include="Assets\Scripts\PlayerHealth.cs" />
