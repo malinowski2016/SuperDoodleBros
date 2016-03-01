@@ -7,7 +7,7 @@ public class EnemyManager : MonoBehaviour {
 	public GameObject basicEnemy;
 	public GameObject middleEnemy;
 
-	public TrackerEnemyBehavior trackerEnemy;
+	public GameObject trackerEnemy;
 
 	// Use this for initialization
 	void Start () {
@@ -26,12 +26,12 @@ public class EnemyManager : MonoBehaviour {
 
 		if (enemyType <= 70) {					// No enemy
 			enemy = null;
-		} else if (enemyType <= 90) {			// Basic enemy
+		} else if (enemyType <= 92) {			// Basic enemy
 			enemy = basicEnemy.GetComponent<BasicEnemyBehavior> ().SpawnBasicEnemy (spawnPos, platWidth);
-		} else if (enemyType <= 96) {
+		} else if (enemyType <= 98) {
 			enemy = middleEnemy.GetComponent<BasicEnemyBehavior> ().SpawnBasicEnemy (spawnPos, platWidth);
 		} else {								// Tracker enemy					
-			trackerEnemy.SpawnTrackerEnemy(spawnPos);
+			trackerEnemy.GetComponent<TrackerEnemyBehavior>().SpawnTrackerEnemy(spawnPos);
 		}
 	}
 }

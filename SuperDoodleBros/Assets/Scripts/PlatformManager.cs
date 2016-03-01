@@ -26,19 +26,23 @@ public class PlatformManager : MonoBehaviour {
 	public float MinDistance = 2;
 	public float MaxDistance = 10;
 
-	public float MinX = -10;
-	public float MaxX = 10;
+	//public float MinX = -10;
+	//public float MaxX = 10;
+
+	private float MinX;
+	private float MaxX;
 
 	// Use this for initialization
 	void Start () {
-	
+		MinX = Camera.main.transform.position.x - Camera.main.orthographicSize - 1f;
+		MaxX = Camera.main.transform.position.x + Camera.main.orthographicSize + 1f; 
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
 		var maxY = Camera.main.orthographicSize + Camera.main.transform.position.y;
-		var minY = Camera.main.transform.position.y - Camera.main.orthographicSize - 1;
+		var minY = Camera.main.transform.position.y - Camera.main.orthographicSize;
 
 		if (_InUse.Count > 0) {
 			// if platofrm is below minY, delete it
@@ -68,7 +72,7 @@ public class PlatformManager : MonoBehaviour {
 			platform.SetActive (true);
 		} else {
 			int rand = Random.Range (0, 10);
-			if (rand < 1) {
+			if (rand < 3) {
 				platform = GameObject.Instantiate (bouncy_platform_prefab);
 			} else {
 				platform = GameObject.Instantiate (platform_prefab);
