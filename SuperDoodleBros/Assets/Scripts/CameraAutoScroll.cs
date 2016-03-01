@@ -26,7 +26,7 @@ public class CameraAutoScroll : MonoBehaviour {
 			//Add conditions to deal with massive bounces
 			if (head_room < 1f) {
 				camera_speed = 4f;
-			} else if (head_room < 2.5f) {
+			} else if (head_room < 3f) {
 				camera_speed = 2.5f;
 			} else {
 				camera_speed = 0.5f;

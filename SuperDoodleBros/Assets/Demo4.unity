@@ -164,6 +164,14 @@ Prefab:
       propertyPath: JumpVelocity.y
       value: 6.5
       objectReference: {fileID: 0}
+    - target: {fileID: 450988, guid: e4311ef09c2ad624198f1cde85a72f44, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 450988, guid: e4311ef09c2ad624198f1cde85a72f44, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e4311ef09c2ad624198f1cde85a72f44, type: 2}
   m_IsPrefabParent: 0
