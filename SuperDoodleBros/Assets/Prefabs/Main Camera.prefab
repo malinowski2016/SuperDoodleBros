@@ -108,7 +108,7 @@ MeshRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: f2c132a90619b704fb5b283ab33392eb, type: 2}
+  - {fileID: 2100000, guid: a83bf95cb59dda04bb20427241cab043, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -178,8 +178,8 @@ MonoBehaviour:
   SpawnDistance: 10
   MinWidth: 1.5
   MaxWidth: 5
-  MinDistance: -1
-  MaxDistance: 2
+  MinDistance: -0.5
+  MaxDistance: 1.75
 --- !u!114 &11486060
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -194,7 +194,7 @@ MonoBehaviour:
   platformManager: {fileID: 11436146}
   basicEnemy: {fileID: 180532, guid: 2d77deeabc605fc4da1369980535b7fc, type: 2}
   middleEnemy: {fileID: 156038, guid: 91a513c4c8fa91f4e944484286a742e8, type: 2}
-  trackerEnemy: {fileID: 11437110, guid: f62eaace763f9f74c83cabbe9c75b1ea, type: 2}
+  trackerEnemy: {fileID: 183414, guid: f62eaace763f9f74c83cabbe9c75b1ea, type: 2}
 --- !u!124 &12483824
 Behaviour:
   m_ObjectHideFlags: 1

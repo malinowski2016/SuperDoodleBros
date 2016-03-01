@@ -13,7 +13,7 @@ GameObject:
   - 114: {fileID: 11401388}
   m_Layer: 5
   m_Name: ScoreText
-  m_TagString: Untagged
+  m_TagString: Score
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47,11 +47,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2350c8217bed5274b92597ab53ed9c7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  display: {fileID: 186554}
+  myText: {fileID: 0}
   curr_score: 100
   numBasic: 4
   numTrackers: 2
-  numShots: 0
+  numShots: 10
   numHits: 17
 --- !u!114 &11451934
 MonoBehaviour:
