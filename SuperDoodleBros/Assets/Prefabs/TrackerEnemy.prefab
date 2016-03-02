@@ -13,6 +13,7 @@ GameObject:
   - 222: {fileID: 22220692}
   - 58: {fileID: 5830690}
   - 212: {fileID: 21220830}
+  - 95: {fileID: 9579250}
   m_Layer: 10
   m_Name: TrackerEnemy
   m_TagString: Enemy
@@ -51,6 +52,23 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.1
+--- !u!95 &9579250
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 183414}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0f34e1e0806298d439f371997d2a26e8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &11488946
 MonoBehaviour:
   m_ObjectHideFlags: 1

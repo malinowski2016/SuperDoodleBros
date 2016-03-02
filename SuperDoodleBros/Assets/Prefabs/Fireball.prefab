@@ -12,8 +12,7 @@ GameObject:
   - 212: {fileID: 21246396}
   - 58: {fileID: 5832898}
   - 114: {fileID: 11406976}
-  - 95: {fileID: 9566808}
-  - 111: {fileID: 11144434}
+  - 95: {fileID: 9519638}
   m_Layer: 11
   m_Name: Fireball
   m_TagString: Projectile
@@ -64,7 +63,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.32
---- !u!95 &9566808
+--- !u!95 &9519638
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 1
@@ -73,7 +72,7 @@ Animator:
   m_GameObject: {fileID: 127426}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c2ff3c32fc6c8334ab2158c04ad7ca57, type: 2}
+  m_Controller: {fileID: 9100000, guid: 62d6783a1c3053e45b35d0df8a0a781c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -81,21 +80,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!111 &11144434
-Animation:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 127426}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 9d3145cf9ee067940baeff9af4ec531d, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: 9d3145cf9ee067940baeff9af4ec531d, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!114 &11406976
 MonoBehaviour:
   m_ObjectHideFlags: 1
