@@ -103,6 +103,7 @@ public class PlatformManager : MonoBehaviour {
 		if (GameObject.FindGameObjectWithTag("Score").GetComponent<ScoreTracker>().curr_score > 1) {
 			Vector3 enemy_spawn = new Vector3 (_LastSpawn.x, _LastSpawn.y + .2f, _LastSpawn.z);
 			enemyManager.SpawnEnemy (enemy_spawn, _LastWidth);
+			GameObject.FindGameObjectWithTag ("MainCamera").GetComponent<CoinManager> ().SpawnCoin ();
 		}
 
 		//enemyManager.SpawnEnemy (enemy_spawn, platform);

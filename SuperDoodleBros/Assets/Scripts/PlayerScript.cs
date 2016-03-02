@@ -3,7 +3,7 @@ using System;
 using System.Collections;
 
 public class PlayerScript : MonoBehaviour {
-
+	/*
 	public event Action LandedOnPlatform = delegate{};
 	public event Action PlayerDeath = delegate{};
 
@@ -55,7 +55,7 @@ public class PlayerScript : MonoBehaviour {
             rb.velocity = new Vector2(maxSpeed, rb.velocity.y);
         if (rb.velocity.x < -maxSpeed)
             rb.velocity = new Vector2(-maxSpeed, rb.velocity.y);
-        */
+        
     }
 
 	void OnCollisionEnter(){
@@ -68,4 +68,5 @@ public class PlayerScript : MonoBehaviour {
     {
 		_OnPlatform = false;
     }
+    */
 }

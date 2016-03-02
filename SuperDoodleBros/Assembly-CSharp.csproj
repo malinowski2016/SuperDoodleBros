@@ -47,6 +47,8 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\BasicEnemyBehavior.cs" />
      <Compile Include="Assets\Scripts\CameraAutoScroll.cs" />
+     <Compile Include="Assets\Scripts\CoinBehavior.cs" />
+     <Compile Include="Assets\Scripts\CoinManager.cs" />
      <Compile Include="Assets\Scripts\DisplayPlayerHealth.cs" />
      <Compile Include="Assets\Scripts\DisplayStats.cs" />
      <Compile Include="Assets\Scripts\DoodleBroScript.cs" />

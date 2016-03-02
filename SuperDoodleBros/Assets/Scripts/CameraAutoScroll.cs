@@ -14,12 +14,12 @@ public class CameraAutoScroll : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	
-		var cameraPosition = transform.localPosition;
+//		var cameraPosition = transform.localPosition;
 
 		var maxY = Camera.main.orthographicSize + Camera.main.transform.position.y;
 		float camera_speed;
 
-		var maxHeight = 20.0;
+//		var maxHeight = 20.0;
 
 		if (GameObject.FindGameObjectWithTag("Player") != null) {
 			var player_y = GameObject.FindGameObjectWithTag ("Player").gameObject.transform.position.y;
