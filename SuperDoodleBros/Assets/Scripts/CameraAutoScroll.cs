@@ -4,11 +4,11 @@ using UnityEngine.SceneManagement;
 
 public class CameraAutoScroll : MonoBehaviour {
 
-
+	public ScoreTracker score;
 
 	// Use this for initialization
 	void Start () {
-	
+		score = GameObject.FindGameObjectWithTag ("Score").GetComponent<ScoreTracker> ();
 	}
 	
 	// Update is called once per frame
@@ -34,6 +34,11 @@ public class CameraAutoScroll : MonoBehaviour {
 			}
 			transform.Translate ((Vector3.up * (float)(Time.deltaTime * camera_speed)), Space.World);
 		} else{
+			PlayerPrefs.SetInt ("score", (int) score.curr_score);
+			PlayerPrefs.SetInt ("basic", score.numBasic);
+			PlayerPrefs.SetInt ("tracker", score.numTrackers);
+			PlayerPrefs.SetInt ("shot", score.numShots);
+			PlayerPrefs.SetInt ("hit", score.numHits);
 			SceneManager.LoadScene ("Death Screen");
 		}
 
