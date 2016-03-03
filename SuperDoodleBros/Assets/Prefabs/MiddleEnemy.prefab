@@ -95,8 +95,8 @@ MonoBehaviour:
   score: {fileID: 11401388, guid: 08c93ce1f8062a64d9ffbc7ffaa7deaa, type: 2}
   dirRight: 1
   speed: 3.5
-  range: 1.6559285
-  maxHealth: 50
+  range: 2.4822674
+  maxHealth: 30
   currentHealth: 0
 --- !u!212 &21218784
 SpriteRenderer:
@@ -145,7 +145,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: maxHealth
-      value: 50
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_TagString

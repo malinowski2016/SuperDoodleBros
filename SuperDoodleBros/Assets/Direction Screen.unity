@@ -370,11 +370,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Controls:\n    - Use arrow keys move left, right and jump.\n    - Space
-    bar shoots fireballs.\n        > Shift key cycles between types of fireballs.\n\nRules:\n
-    \   - Points are awarded for time spent alive\n    - Player will die if goes beneath
-    camera\n    - Any contact with enemies is fatal\n    - Destroying enemies earns
-    you points"
+  m_Text: "Controls:\n    - Use arrow keys to move left, right and jump\n    - Space
+    bar shoots fireballs\n        > Shift key cycles between types of fireballs at
+    150 pts\n\nRules:\n    - Points are awarded for time spent alive\n    - Player
+    will die if goes beneath camera\n    - Any contact with enemies is fatal\n    -
+    Destroying enemies earns you points"
 --- !u!222 &761708110
 CanvasRenderer:
   m_ObjectHideFlags: 0

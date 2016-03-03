@@ -61,7 +61,7 @@ public class DoodleBroScript : MonoBehaviour {
 			weapon_unlocked = true;
 		}
 
-		if (Input.GetKeyDown (KeyCode.RightShift)) {
+		if (Input.GetKeyDown (KeyCode.RightShift) || Input.GetKeyDown(KeyCode.LeftShift)) {
 			if (weapon_choice == 0 && weapon_unlocked) {
 				weapon_choice = 1;
 			}
