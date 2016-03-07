@@ -139,7 +139,7 @@ public class DoodleBroScript : MonoBehaviour {
 		}
 		var doodle_pos = this.gameObject.transform.position;
 
-		float velo;
+//		float velo;
 		float offset = .15f;
 
 		Vector3 spawn;

@@ -416,3 +416,19 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a1f8997863c3f94439e43f2e57383f41, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &2126643244 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 145568, guid: a1f8997863c3f94439e43f2e57383f41, type: 2}
+  m_PrefabInternal: {fileID: 1594617369}
+--- !u!114 &2126643245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2126643244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3358a62e59fd908408ccc1bc9eec3316, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coin_prefab: {fileID: 190574, guid: 145b901b1eeba284c93a384e177b7656, type: 2}
