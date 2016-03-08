@@ -413,6 +413,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11436146, guid: a1f8997863c3f94439e43f2e57383f41, type: 2}
+      propertyPath: disappearing_platform_prefab
+      value: 
+      objectReference: {fileID: 173984, guid: c224d1295461c214483db629251bdc15, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a1f8997863c3f94439e43f2e57383f41, type: 2}
   m_IsPrefabParent: 0

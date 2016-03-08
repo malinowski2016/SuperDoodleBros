@@ -12,6 +12,7 @@ public class PlatformManager : MonoBehaviour {
 	public EnemyManager enemyManager;
 	public GameObject platform_prefab;
 	public GameObject bouncy_platform_prefab;
+	public GameObject disappearing_platform_prefab;
 
 	public GameObject platform;
 
@@ -67,20 +68,30 @@ public class PlatformManager : MonoBehaviour {
 	private void SpawnNewPlatform(){
 
 		//GameObject platform;
-		if (_Available.Count > 0) {
+		int rand = Random.Range(0,10);
+		if (rand == 9) {
+			
+			platform = GameObject.Instantiate (disappearing_platform_prefab);
+			MovePlatformToPosition (platform);
+
+		} else if (_Available.Count > 0) {
+			
 			platform = _Available.Dequeue ();
 			platform.SetActive (true);
+
+			_InUse.Enqueue (platform);
+			MovePlatformToPosition (platform);
+
 		} else {
-			int rand = Random.Range (0, 10);
 			if (rand < 3) {
 				platform = GameObject.Instantiate (bouncy_platform_prefab);
 			} else {
 				platform = GameObject.Instantiate (platform_prefab);
 			}
-		}
 
-		_InUse.Enqueue (platform);
-		MovePlatformToPosition (platform);
+			_InUse.Enqueue (platform);
+			MovePlatformToPosition (platform);
+		}
 
 		//enemyManager.SpawnEnemy (_LastSpawn, _LastWidth);
 	}
