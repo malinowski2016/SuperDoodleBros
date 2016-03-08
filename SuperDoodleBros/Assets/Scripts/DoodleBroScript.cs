@@ -2,10 +2,12 @@
 using System;
 using System.Collections;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class DoodleBroScript : MonoBehaviour {
 
 	public ScoreTracker score;
+	public GameObject popup;
 
 	public event Action CheckPlayerDeath = delegate{};
 
@@ -59,6 +61,7 @@ public class DoodleBroScript : MonoBehaviour {
 
 		if (!weapon_unlocked && score.curr_score > unlock_score) {
 			weapon_unlocked = true;
+			Instantiate (popup);
 		}
 
 		if (Input.GetKeyDown (KeyCode.RightShift) || Input.GetKeyDown(KeyCode.LeftShift)) {
@@ -104,6 +107,8 @@ public class DoodleBroScript : MonoBehaviour {
 		
 	}
 		
+
+
 	void OnCollisionEnter2D(Collision2D col){
 
 		if (col.gameObject.tag == "Platform")

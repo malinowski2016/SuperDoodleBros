@@ -55,7 +55,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 189520}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.022406243, y: -0.35264573, z: 0.010377497}
+  m_LocalPosition: {x: 0, y: 0, z: 0.010377497}
   m_LocalScale: {x: 1.2642876, y: 1.2642869, z: 1.2642869}
   m_Children: []
   m_Father: {fileID: 434968}
@@ -120,11 +120,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: {fileID: 11401388, guid: 08c93ce1f8062a64d9ffbc7ffaa7deaa, type: 2}
-  Acceleration: {x: 150, y: 0, z: 0}
-  JumpVelocity: {x: 0, y: 9, z: 0}
+  popup: {fileID: 168984, guid: 508b98287993a1e4eab92aaa9ad75e6f, type: 2}
+  Acceleration: {x: 180, y: 0, z: 0}
+  JumpVelocity: {x: 0, y: 6.5, z: 0}
   weapon_prefab: {fileID: 127426, guid: aa061abe8b9a40747ba8a82ea04f677d, type: 2}
   green_weapon_prefab: {fileID: 137990, guid: a94436fa1fd3d2646b06032942a7ed75, type: 2}
   weapon_choice: 0
+  unlock_score: 150
   dir_facing: 1
 --- !u!212 &21233116
 SpriteRenderer:
