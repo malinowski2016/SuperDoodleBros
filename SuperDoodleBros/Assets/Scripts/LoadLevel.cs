@@ -14,4 +14,12 @@ public class LoadLevel : MonoBehaviour {
 	public void loadStart() {
 		SceneManager.LoadScene ("Start Screen");
 	}
+
+	public void loadDeath() {
+		SceneManager.LoadScene ("Death Screen");
+	}
+
+	public void loadHS() {
+		SceneManager.LoadScene ("Leaderboard");
+	}
 }
