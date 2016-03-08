@@ -55,6 +55,7 @@
      <Compile Include="Assets\Scripts\EnemyHealth.cs" />
      <Compile Include="Assets\Scripts\EnemyManager.cs" />
      <Compile Include="Assets\Scripts\FireballManager.cs" />
+     <Compile Include="Assets\Scripts\HighScoreManager.cs" />
      <Compile Include="Assets\Scripts\LoadLevel.cs" />
      <Compile Include="Assets\Scripts\PlatformBehavior.cs" />
      <Compile Include="Assets\Scripts\PlatformManager.cs" />

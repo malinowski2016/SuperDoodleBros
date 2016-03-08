@@ -13,3 +13,5 @@ EditorBuildSettings:
     path: Assets/Direction Screen.unity
   - enabled: 1
     path: Assets/Death Screen.unity
+  - enabled: 1
+    path: Assets/Leaderboard.unity

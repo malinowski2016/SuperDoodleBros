@@ -23,6 +23,34 @@ public class DisplayStats : MonoBehaviour {
 			hitPct = (float) numHits / numShots * 100;
 		shots.text = "-Shots: " + numShots;
 		hits.text = "-Hits: " + numHits;
-		accuracy.text = ">Accuracy: " + hitPct + "%";
+		accuracy.text = ">Accuracy: " + hitPct.ToString("#.00") + "%";
+	}
+
+	public void AddScore(Text player_name){
+		int newScore;
+		string newName;
+		int oldScore;
+		string oldName;
+		newScore = PlayerPrefs.GetInt ("score");
+		newName = player_name.text;
+
+		for (int i=1;i<=10;i++) {
+			if (PlayerPrefs.HasKey(i+"HScore")) {
+				if (PlayerPrefs.GetInt(i+"HScore") < newScore) { 
+					// new score is higher than the stored score
+					oldScore = PlayerPrefs.GetInt(i+"HScore");
+					oldName = PlayerPrefs.GetString(i+"HScoreName");
+					PlayerPrefs.SetInt(i+"HScore",newScore);
+					PlayerPrefs.SetString(i+"HScoreName",newName);
+					newScore = oldScore;
+					newName = oldName;
+				}
+			} else {
+				PlayerPrefs.SetInt(i+"HScore",newScore);
+				PlayerPrefs.SetString(i+"HScoreName",newName);
+				newScore = 0;
+				newName = "";
+			}
+		}
 	}
 }
