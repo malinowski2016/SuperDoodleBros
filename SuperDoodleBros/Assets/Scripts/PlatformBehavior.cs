@@ -12,19 +12,12 @@ public class PlatformBehavior : MonoBehaviour {
 	void Update () {
 	
 	}
-	/*
-	void OnCollisionEnter(Collision col){
-		Debug.Log (string.Format ("Enter collision"));
-		if (this.gameObject.transform.position.y >= col.gameObject.transform.position.y) {
-			this.GetComponent<Collider2D> ().enabled = false;
-			Debug.Log (string.Format ("SHOULD GO THROUGH"));
-		} else {
-			this.GetComponent<Collider2D> ().enabled = true;
+
+	void OnCollisionEnter2D(Collision2D col){
+
+		if (col.gameObject.tag == "Player") {
+			Debug.Log (string.Format ("Enter collision"));
+			Object.Destroy (this.gameObject, 3f);
 		}
 	}
-
-	void OnCollisionExit(){
-		this.GetComponent<Collider2D> ().enabled = true;
-	}
-	*/
 }
